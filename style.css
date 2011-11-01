@@ -1,0 +1,21 @@
+ .chart div {
+   font: 10px sans-serif;
+   background-color: steelblue;
+   text-align: right;
+   padding: 3px;
+   margin: 1px;
+   color: white;
+   float: left;
+ }
+
+ .chart {
+ 	padding-top: 10px;
+ }
+
+#description {
+	clear: both;
+}
+
+.title {
+	padding-top: 15px;
+}

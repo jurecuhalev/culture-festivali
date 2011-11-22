@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Playing with D3</title>
+    <title>Culture.si festivals</title>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     
     <script type="text/javascript" src="https://github.com/mbostock/d3/raw/v2.4.6/d3.js"></script>
@@ -15,7 +15,7 @@
 
   <body>
   <div class="container">
-  <h2>Festivali v letu 2012 iz <a href="http://culture.si">Culture.si baze</a></h2>
+  <h2>International festivals in Slovenia in 2012 from <a href="http://culture.si">Culture.si</a></h2>
 
   
   <div id="description"></div></div>
@@ -26,27 +26,26 @@
   <script type="text/template" id="description_tmpl">
   <div class="row">
   	<div class="span12">
-  		<h3 class="title">${label}</h3>
+  		<h3 class="title">${label} (${merged_cat})</h3>
   	</div>
   </div>
   <div class="row">
 	
 	<div class="span6">
-		<strong>Organizira:</strong> ${organised_by} <br />
-		<strong>Naslov:</strong> ${street} <br />
-		<strong>Kraj:</strong> ${town} <br />
+		<strong>Organised by:</strong> ${organised_by} <br />
+		<strong>Address:</strong> ${street} <br />
+		<strong>City:</strong> ${town} <br />
 	</div>
 	<div class="span10">
-		<strong>Pogostost:</strong> ${frequency} <br />
-		<strong>Spletna stran:</strong> <a href="${website}">${website}</a> <br />
+		<strong>Frequency:</strong> ${frequency} <br />
+		<strong>Web site:</strong> <a href="${website}">${website}</a> <br />
 		<strong>E-mail:</strong> <a href="mailto:${email}">${email}</a> <br />
-		<strong>Telefon:</strong> ${telephone} <br />
+		<strong>Phone:</strong> ${telephone} <br />
 	</div>
   </div>
 	<div class="row">
 		<div class="span16">
 			<strong>Culture.si:</strong> <a href="${uri}">${uri}</a> <br />
-			<strong>Tip:</strong> <a href="http://www.culture.si/en/Category:${type}">${type}</a>
 		</div>
 	</div>
   

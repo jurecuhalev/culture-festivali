@@ -7,18 +7,30 @@
 		"telephone" : { "valueType": "text" },
 		"street" : { "valueType": "text" },
 		"town" : { "valueType": "text" },
-		"duration_weeks" : { "valueType": "text" }
+		"duration_weeks" : { "valueType": "text" },
+		"category" : { "valueType": "text" }
 	},
 	"items": [
 		{
+			"label": "Akord Festival Maribor",
+			"frequency": ["annual","2 days, beginning of October"],
+			"organised_by": "Subkulturni azil Maribor",
+			"duration_weeks": "39,40 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in October","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Akord Festival Maribor",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
 			"label": "Alpe Adria PUF Festival",
-			"frequency": ["annual","June - September"],
+			"frequency": ["annual","July - Avgust"],
 			"organised_by": "Lutkarnica - Koper Puppetry Studio",
 			"website": "http://puf.pina.info",
 			"email": "puf.press@gmail.com",
 			"telephone": "386 (0) 5 627 1101",
 			"street": "Lutkarnica, Mladinska 6",
 			"town": "SI-6000 Koper-Capodistria",
+			"duration_weeks": "26,27,28,29,30,31,32,33,34 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in June","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Puppetry","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Alpe Adria PUF Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -32,30 +44,59 @@
 			"street": "Kersnikova 4",
 			"town": "SI-1000 Ljubljana",
 			"duration_weeks": "26,27 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Street theatre","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ana Desetnica International Street Theatre Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
 		{
 			"label": "Animateka International Animated Film Festival",
-			"frequency": ["December, 2nd week, 7 days","Annual"],
+			"frequency": ["December, 2nd week, 14 days","Annual"],
 			"organised_by": ["Kinodvor Cinema","2 Reels - Association for Reanimation of Storytelling"],
 			"website": "http://www.animateka.si/",
 			"telephone": "386 (0) 5 997 1747",
 			"street": "Kersnikova 4",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "49,50 (2012)",
+			"category": ["Workshops","Animation","Film workshops","Articles maintained by Denis Valič","PHOTO","INFOBOX DONE","Festivals","Festivals in December","NOT ROBOT","Film","Animation festivals","NODEPO","COVER","Film festivals","WRITING DONE","NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Animateka International Animated Film Festival",
 			"type" : "Film"
 		},
 		{
+			"label": "Arsana International Music Festival",
+			"frequency": "2 weeks, end of August, beginning of September",
+			"organised_by": "Arsana Music Art Association",
+			"website": "http://www.arsana.si/",
+			"email": "info@arsana.si",
+			"telephone": "386 (0) 59 955 041, 386 (0) 41 280 934 (mobile)",
+			"street": "Jadranska 4",
+			"duration_weeks": "29,30,31 (2011) 29,30,31 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Articles maintained by Maia Golobič","Music","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Festivals in August","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Arsana International Music Festival",
+			"type" : "Articles_maintained_by_Maia_Golobič"
+		},
+		{
 			"label": "Art Stays, International Festival of Contemporary Art",
-			"frequency": ["July, last 10 days","Annual"],
+			"frequency": ["July, Avgust, 7 weeks","Annual"],
 			"organised_by": "Art Stays Cultural Association",
 			"website": "http://www.artstays.si/",
 			"email": "info@artstays.si",
 			"telephone": "386 (0) 40 304 456, 386 (0) 51 361 800",
 			"street": "Jadranska ulica 4",
+			"duration_weeks": "28,29,30,31,32,33,34,35 (2012)",
+			"category": ["NOVERIFY","FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in July","INFOBOX DONE","Festivals","NOT ROBOT","Maribor, European Capital of Culture 2012","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Art Stays, International Festival of Contemporary Art",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
+		},
+		{
+			"label": "Baladoor Jazz Festival",
+			"frequency": ["annual","3 days, end of June"],
+			"organised_by": "Kulturno umetniško društvo Baladoor",
+			"website": "http://www.baladoor.com/",
+			"email": "baladoor@gmail.com",
+			"duration_weeks": "25 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Festivals in June","Music","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Baladoor Jazz Festival",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Biennial of Graphic Arts",
@@ -66,6 +107,8 @@
 			"telephone": "386 (0) 1 241 3800",
 			"street": "Pod turnom 3",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "38,39,40,41,42,43,44,45,46 (2011)",
+			"category": ["NOVERIFY","FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Biennial of Graphic Arts",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
 		},
@@ -79,6 +122,7 @@
 			"street": "Pot na Fužine 2",
 			"town": "SI-1000 Ljubljana",
 			"duration_weeks": "39,40,41,42,43,44,45 (2012)",
+			"category": ["FERTIK","Articles maintained by Tea Pristolič","Design festivals","Festivals in October","PROOFREAD DONE","PHOTO","INFOBOX DONE","Festivals","Industrial design","NOT ROBOT","NODEPO","COVER","WRITING DONE","Design","FEATURED","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Biennial of Industrial Design (BIO)",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
@@ -92,8 +136,19 @@
 			"street": "Prešernova 10",
 			"town": "SI-1000 Ljubljana",
 			"duration_weeks": "46,47,48,49,50,51,52 (2012) 1,2,3,4,5 (2013)",
+			"category": ["FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO PHOTO","Festivals in November","NO LOGO","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Literature","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Biennial of Slovene Book Illustration",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
+		},
+		{
+			"label": "Biennial of Slovene Ceramics",
+			"organised_by": "Gaja Ceramic Artists Association",
+			"telephone": "386 (0) 40 576595",
+			"street": "Cesta v Staro vas 1",
+			"town": "SI-6230 Postojna",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Visual arts festivals","Visual arts","TOPROOFREAD","NO PHOTO","NO LOGO","WRITING","Articles maintained by Visual and new media art maintainer","Festivals","NOT ROBOT","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Biennial of Slovene Ceramics",
+			"type" : "Articles_maintained_by_Visual_and_new_media_art_maintainer"
 		},
 		{
 			"label": "Biennial of Slovene Visual Communications",
@@ -104,6 +159,7 @@
 			"telephone": "386 (0) 41 944 967",
 			"street": "Dolenjska cesta 83",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals","Festivals in October","PROOFREAD DONE","NO PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Biennial of Slovene Visual Communications",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
@@ -116,6 +172,8 @@
 			"telephone": "386 (0) 1 431 2222",
 			"street": "Zavod Big, Dunajska cesta 20",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "20,21,22 (2012)",
+			"category": ["NOVERIFY","Architecture festivals","FERTIK","Articles maintained by Tea Pristolič","PROOFREAD DONE","NO PHOTO","Architecture","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=Big Architecture Festival",
 			"type" : "Architecture"
 		},
@@ -128,8 +186,42 @@
 			"telephone": "384 (0) 4 531 7610",
 			"street": "Alpska 74",
 			"town": "SI-4248 Lesce",
+			"duration_weeks": "26, 27, 28, 29 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","Articles maintained by Gregor Pompe","PROOFREAD DONE","Festivals in July","PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Bled Festival",
 			"type" : "Articles_maintained_by_Gregor_Pompe"
+		},
+		{
+			"label": "BOFF Bovec Outdoor Film Festival",
+			"frequency": ["annual","3 days, end of December"],
+			"website": "http://www.boff.si/",
+			"email": "info@boff.si",
+			"duration_weeks": "52 (2011) 52 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","Festivals","Festivals in December","NOT ROBOT","Film","Articles maintained by Film maintainer","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=BOFF Bovec Outdoor Film Festival",
+			"type" : "Articles_maintained_by_Film_maintainer"
+		},
+		{
+			"label": "BUMfest International Percussion Festival",
+			"frequency": ["annual","4 days, early in January"],
+			"organised_by": ["SToP Slovene Percussion Project","ZKŠT, Zavod za kulturo šport in turizem Žalec"],
+			"website": "http://www.bumfest.si/",
+			"email": "zkst.tic@siol.net",
+			"duration_weeks": "2 (2010) 2 (2011) 2 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in January","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=BUMfest International Percussion Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Cankarjada Theatre Festival",
+			"frequency": ["annual","1 week, beginning of September"],
+			"organised_by": "Klub vrhniških študentov",
+			"website": "http://www.cankarjada.si/",
+			"email": "program_kvs@yahoo.com",
+			"duration_weeks": "35 (2011) 36 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","Festivals","Festivals in September","NOT ROBOT","Theatre","Articles maintained by Dance and theatre maintainer","Theatre festivals","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Cankarjada Theatre Festival",
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
 		},
 		{
 			"label": "Carniola Festival, Summer in Kranj",
@@ -140,6 +232,7 @@
 			"telephone": "386 (0) 4 236 0608",
 			"street": "Glavni trg 20",
 			"town": "SI-4000 Kranj",
+			"category": ["NO PHOTO","NO LOGO","Music","NOT ROBOT","Theatre","WRITING DONE","NOVERIFY","FERTIK","PROOFREAD DONE","Festivals in July","Festivals in June","INFOBOX DONE","Festivals","Articles maintained by Ičo Vidmar","Theatre festivals","NODEPO","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Carniola Festival, Summer in Kranj",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -152,6 +245,8 @@
 			"telephone": "386 (0) 1 438 1580, 386 (0) 40 816 447",
 			"street": "Kersnikova 4",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "40,41 (2012)",
+			"category": ["Visual arts festivals","NO PHOTO","Music","INFOBOX DONE","Articles maintained by Katja Kosi","Dance","Festivals","NOT ROBOT","Theatre","Film","Theatre festivals","NODEPO","Film festivals","WRITING DONE","Music festivals","NOVERIFY","FERTIK","Festivals in October","PROOFREAD DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=City of Women International Festival of Contemporary Arts",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -163,8 +258,46 @@
 			"telephone": "386 (0) 1 242 8800",
 			"street": "Cesta 27. aprila 31",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "39,40,41,42,43,44 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Club Marathon",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
+		},
+		{
+			"label": "Cmakajne Festival of Young Creativity",
+			"frequency": ["annual","1 week, mid September"],
+			"organised_by": "C.M.A.K. Cerkno",
+			"website": "http://cmak.cerkno.net/cmakajne/",
+			"duration_weeks": "37,38 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Visual arts festivals","Visual arts","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","Festivals in September","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Cmakajne Festival of Young Creativity",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
+		},
+		{
+			"label": "ČrnFest",
+			"frequency": ["annual","4 weeks, August"],
+			"organised_by": ["Klub belokranjskih študentov","Bela krajina Youth Cultural Club (MKK Črnomelj)"],
+			"website": "http://crnfest.si",
+			"street": "Trg avobode 1",
+			"town": "SI-8340 Črnomelj",
+			"duration_weeks": "31,32,33,34 (2011) 31,32,33,34 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=ČrnFest",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "(DA)(NE)S Festival of Microtonal Music",
+			"frequency": "2 days, end of August",
+			"organised_by": "KIBLA Multimedia Centre",
+			"website": "http://www.kibla.org/festivali/danes/",
+			"email": "kibla@kibla.org",
+			"telephone": "386 (0) 41 730 272",
+			"street": "Kneza Koclja 9",
+			"town": "SI-2000 Maribor",
+			"duration_weeks": "36, 37, 41 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Music","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=(DA)(NE)S Festival of Microtonal Music",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Days of Comedy",
@@ -176,8 +309,20 @@
 			"street": "Gledališki trg 5",
 			"town": "SI-3000 Celje",
 			"duration_weeks": "9,10,11,12 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Festivals in February","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Days of Comedy",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "Days of Ethnographic Film",
+			"frequency": ["annual","5 days, beginning of March"],
+			"organised_by": "Audiovisual Laboratory, Institute of Slovene Ethnology",
+			"website": "http://www.def.si/",
+			"email": "info@sed-drustvo.si",
+			"duration_weeks": "10 (2011) 11 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Heritage maintainer","Festivals in March","TOPROOFREAD","NO PHOTO","Intangible heritage","WRITING","Festivals","NOT ROBOT","Film","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Days of Ethnographic Film",
+			"type" : "Articles_maintained_by_Heritage_maintainer"
 		},
 		{
 			"label": "Days of Oris",
@@ -188,6 +333,7 @@
 			"telephone": "385 (0) 1 377 8177",
 			"street": "Cesta prvih borcev 28",
 			"town": "SI-8250 Brežice",
+			"category": ["NOVERIFY","Architecture festivals","Architecture education","FERTIK","Articles maintained by Tea Pristolič","PROOFREAD DONE","NO PHOTO","Festivals in April","Architecture","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Education"],
 			"uri" : "http://www.culture.si/en/index.php?title=Days of Oris",
 			"type" : "Architecture"
 		},
@@ -199,6 +345,8 @@
 			"telephone": "386 (0) 1 200 3705",
 			"street": "Borštnikov trg 2",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "34 (2012)",
+			"category": ["Articles maintained by Andreja Musar","FERTIK","PROOFREAD DONE","NO LOGO","PHOTO","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Festivals in August","Literature","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE","FEATURED","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Days of Poetry and Wine Festival",
 			"type" : "Articles_maintained_by_Andreja_Musar"
 		},
@@ -211,62 +359,64 @@
 			"telephone": "386 (0) 2 300 7871",
 			"street": "Glavarjeva 49",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Festivals in November","NO LOGO","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=DokMa International Film Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
 		{
-			"label": "DrrMrrr OrtoPunk Festival",
-			"frequency": ["annual","September, 1-2 days"],
-			"organised_by": "KAPA Association for Cultural and Artistic Production",
-			"website": "http://www.galahala.com/",
-			"email": "drustvokapa@gmail.com",
-			"telephone": "386 (0) 1 431 7063",
-			"street": "KAPA - Association for Culture and Artistic Production, Metelkova mesto, Masarykova 24",
-			"town": "SI-1000 Ljubljana",
-			"uri" : "http://www.culture.si/en/index.php?title=DrrMrrr OrtoPunk Festival",
-			"type" : "Articles_maintained_by_Music_maintainer"
+			"label": "DokuBazaar, Ljubljana Independent Documentary Film Festival",
+			"frequency": ["annual","3 days, mid September"],
+			"website": "http://www.lidff.blogspot.com/",
+			"duration_weeks": "38 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","Festivals","Festivals in September","NOT ROBOT","Film","Articles maintained by Film maintainer","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=DokuBazaar, Ljubljana Independent Documentary Film Festival",
+			"type" : "Articles_maintained_by_Film_maintainer"
 		},
 		{
 			"label": "Druga Godba Festival",
-			"frequency": ["annual","May, mid, 6 days"],
+			"frequency": ["annual","May, June"],
 			"organised_by": "Druga godba Ljubljana",
 			"website": "http://festival.drugagodba.si/",
 			"email": "info@drugagodba.si",
 			"telephone": "386 (0) 1 430 8260, 386 (0) 40 222 207",
 			"street": "Kersnikova 4",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "21,22,23,24,25,26 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","COVER","WRITING DONE","Festivals in May","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Druga Godba Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
 		{
 			"label": "EarZoom Sonic Arts Festival",
+			"frequency": ["annual","September, early, 6 days"],
 			"website": "http://www.irzu.org/festival/festival.html",
 			"email": "info@irzu.org",
 			"street": "Vodnikova 28",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "36,37 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=EarZoom Sonic Arts Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
-			"label": "Electric Rats Dream Video Dreams",
-			"frequency": ["annual","July, early, 4 days"],
-			"website": "http://www.videorats.org",
-			"email": "info@videorats.org",
-			"telephone": "386 (0) 31 324 400",
-			"street": "Muzejski trg 6",
-			"town": "SI-3000 Celje",
-			"uri" : "http://www.culture.si/en/index.php?title=Electric Rats Dream Video Dreams",
-			"type" : "Articles_maintained_by_Dare_Pejić"
+			"label": "Emona Promenade Festival",
+			"frequency": ["annual","1 week, end of August"],
+			"organised_by": "KUD France Prešeren Arts and Culture Association",
+			"website": "http://www.kud.si/index.php/Projekt:Emonska_promenada",
+			"duration_weeks": "33,34 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","Festivals","NOT ROBOT","Theatre","Articles maintained by Dance and theatre maintainer","Festivals in August","Theatre festivals","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Emona Promenade Festival",
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
 		},
 		{
 			"label": "Etnika International World Music Festival",
 			"frequency": ["annual","October, mid, 5 days"],
-			"organised_by": "ZULK - Društvo ustvarjalnih ljudi na področju kulture",
+			"organised_by": "ZAVOD ETNIKA",
 			"website": "http://www.etnika.si",
 			"email": "info@etnika.si",
-			"telephone": "386 (0) 2 252 1257",
-			"street": "Valvasorjeva 26",
+			"street": "Dravska 8",
 			"town": "SI-2000 Maribor",
+			"category": ["NOVERIFY","FERTIK","Festivals in October","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Etnika International World Music Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -277,8 +427,23 @@
 			"telephone": "386 (0) 1 241 7147",
 			"street": "Ljubljanski filmski festival (LIFFe), Cankarjev dom, Kulturni in kongresni center, Prešernova 10",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","Film support services","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Articles maintained by Dare Pejić","INFOBOX DONE","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=European Co-ordination of Film Festivals (ECFF), Slovenia",
 			"type" : "Articles_maintained_by_Dare_Pejić"
+		},
+		{
+			"label": "European Piccolo Festival",
+			"frequency": "2 days, end of August",
+			"organised_by": "Ariana Cultural Association",
+			"website": "http://www.piccolo-festival.eu/",
+			"email": "info@piccolo-festival.eu",
+			"telephone": "386 (0) 41 730 272",
+			"street": "Zgornje jezersko 112",
+			"town": "SI-4206 Zgornje Jezersko",
+			"duration_weeks": "34 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=European Piccolo Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "European Triennial of Small Sculpture",
@@ -288,6 +453,7 @@
 			"telephone": "386 (0) 2 522 3834",
 			"street": "Kocljeva 7",
 			"town": "SI-9000 Murska Sobota",
+			"category": ["FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO LOGO","PHOTO","INFOBOX DONE","Festivals","Festivals in December","NOT ROBOT","NODEPO","COVER","Articles maintained by Maja Škerbot","WRITING DONE","FEATURED","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=European Triennial of Small Sculpture",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
 		},
@@ -300,6 +466,7 @@
 			"telephone": "386 (0) 1 431 0344, 386 (0) 41 373 799",
 			"street": "Metelkova 6",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","PHOTO","Festivals in April","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre festivals","NODEPO","COVER","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Exodos International Festival of Contemporary Performing Arts",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -312,6 +479,8 @@
 			"telephone": "386 (0) 1 426 9405, 386 (0) 31 357 965",
 			"street": "Prešernova 7",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "37,38 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Festivals in September","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Eẋ Ponto International Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -324,6 +493,8 @@
 			"telephone": "386 (0) 5 671 2080",
 			"street": "Tartinijev trg 3",
 			"town": "SI-6330 Piran-Pirano",
+			"duration_weeks": "36 (2012)",
+			"category": ["NOVERIFY","Visual arts competitions","FERTIK","Visual arts festivals","Competitions","Visual arts","TOPROOFREAD","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ex-tempore Piran - International Painting and Ceramics",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
 		},
@@ -336,20 +507,36 @@
 			"telephone": "386 (0) 2 537 1266",
 			"street": "Lendavska ulica 9",
 			"town": "SI-9000 Murska Sobota",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Festivals in November","NO LOGO","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Eye of the Word Festival",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
 		{
 			"label": "Fabula Festival of Stories",
-			"frequency": ["annual","April, entire month"],
+			"frequency": ["annual","February, March, 2 weeks"],
 			"organised_by": "Študentska založba Publishing House",
 			"website": "http://www.festival-fabula.org/",
 			"email": "info@zalozba.org",
 			"telephone": "386 (0) 1 200 3717",
 			"street": "Borštnikov trg 2",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "9,10 (2012)",
+			"category": ["FEATURED","NOVERIFY","Articles maintained by Editor","FERTIK","PROOFREAD DONE","PHOTO","Festivals in April","INFOBOX DONE","Festivals","Literature festivals","World Book Capital Ljubljana 2010","NOT ROBOT","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Fabula Festival of Stories",
 			"type" : "Articles_maintained_by_Editor"
+		},
+		{
+			"label": "Festival at the Border",
+			"frequency": "1 day, first week of July",
+			"organised_by": "Subkulturni azil Maribor",
+			"email": "kud.zid-na-meji@guest.arnes.si",
+			"telephone": "386 (0) 2 647 6381",
+			"street": "Kozjak pri Ceršaku 9",
+			"town": "SI-2215 Ceršak",
+			"duration_weeks": "26 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","NO LOGO","Music","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Festival at the Border",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Festival of Independent Film",
@@ -359,6 +546,7 @@
 			"email": "info@cut.si",
 			"street": "Ljubljanska 76",
 			"town": "SI-1230 Domžale",
+			"category": ["NOVERIFY","Articles maintained by Editor","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","Festivals in December","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Festival of Independent Film",
 			"type" : "Articles_maintained_by_Editor"
 		},
@@ -370,29 +558,33 @@
 			"email": "info@tiporenesansa.si",
 			"street": "Križevniška 16",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","Design festivals","PROOFREAD DONE","NO PHOTO","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Festival of Letters",
 			"type" : "Articles_maintained_by_Admin"
 		},
 		{
 			"label": "Festival of Medieval and Renaissance Music",
-			"frequency": ["annual","August - September"],
+			"frequency": ["annual","September - October"],
 			"organised_by": "Mini Theatre",
 			"website": "http://www.mini-teater.si/",
 			"email": "info@mini-teater.si",
 			"telephone": "386 (0) 1 425 6060",
 			"street": "Križevniška 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "39 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Articles maintained by Maia Golobič","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Festival of Medieval and Renaissance Music",
 			"type" : "Articles_maintained_by_Maia_Golobič"
 		},
 		{
 			"label": "Festival of Monodrama, Ptuj",
-			"frequency": "December, early, 3 days",
+			"frequency": ["biennially","December, early, 3 days"],
 			"organised_by": "Ptuj City Theatre",
 			"website": "http://www.mgp.si/",
 			"email": "info@mgp.si",
 			"telephone": "386 (0) 2 749 3250",
 			"street": "Slovenski trg 13",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Festivals in December","NOT ROBOT","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Festival of Monodrama, Ptuj",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -405,6 +597,8 @@
 			"telephone": "386 (0) 1 234 3200",
 			"street": "Miklošičeva 38",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "40 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","Festivals in October","PROOFREAD DONE","Articles maintained by Denis Valič","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","COVER","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Festival of Slovenian Film",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -412,21 +606,23 @@
 			"label": "FF600 Film Festival",
 			"frequency": ["annual","May, 2-3 days"],
 			"organised_by": "Dharmafilm Society",
-			"website": "http://festival600.org",
+			"website": "http://www.festival600.org",
 			"email": "info@festival600.org",
 			"street": "Obirska 11",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","NO LOGO","Articles maintained by Denis Valič","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=FF600 Film Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
 		{
 			"label": "Filofest International Student Film and Video Festival",
-			"frequency": ["December","annualy"],
+			"frequency": ["biennially","December"],
 			"organised_by": "Faculty of Arts at the University of Ljubljana, Radio-Television Slovenia",
 			"website": "http://www.filofest.com/",
 			"email": "info@filofest.com",
 			"street": "Aškerčeva 2",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Articles maintained by Dare Pejić","INFOBOX DONE","Festivals","Festivals in December","NOT ROBOT","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Filofest International Student Film and Video Festival",
 			"type" : "Articles_maintained_by_Dare_Pejić"
 		},
@@ -435,10 +631,12 @@
 			"frequency": ["annual","June - July, 5 days"],
 			"website": "http://www.nd-mb.si",
 			"telephone": "386 (0) 2 229 4000",
-			"street": "Narodni dom, Kulturno prireditveni center, Kneza Koclja 9",
+			"street": "Kneza Koclja 9",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "26 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO LOGO","Festivals in July","PHOTO","WRITING","INFOBOX DONE","Festivals","Dance","NOT ROBOT","Dance festivals","Articles maintained by Dance and theatre maintainer","NODEPO"],
 			"uri" : "http://www.culture.si/en/index.php?title=Folkart International Folklore Festival, Maribor",
-			"type" : "Dance_festivals"
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
 		},
 		{
 			"label": "Folkest Festival",
@@ -449,6 +647,7 @@
 			"telephone": "386 (0) 5 627 9130",
 			"street": "Župančičeva 39",
 			"town": "SI-6000 Koper-Capodistria",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in July","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Folkest Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -461,6 +660,8 @@
 			"telephone": "386 (0) 7 337 4371",
 			"street": "Dilančeva ulica 1",
 			"town": "SI-8000 Novo mesto",
+			"duration_weeks": "30 (2012)",
+			"category": ["Photography","FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","Festivals in July","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","COVER","Articles maintained by Maja Škerbot","WRITING DONE","FEATURED","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Fotopub Festival of Documentary Photography",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
 		},
@@ -473,8 +674,33 @@
 			"telephone": "386 (0) 1 530 2255",
 			"street": "Puhova 14 (office)",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "34,35 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Dance","NOT ROBOT","Dance festivals","Festivals in August","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Front@ Contemporary Dance Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "FV Music Festival",
+			"frequency": ["annual","2 days, beginning of November"],
+			"organised_by": "FV Music",
+			"website": "http://www2.arnes.si/fv/",
+			"street": "Kersnikova 4",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "45 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in November","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=FV Music Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Garage Explosion Festival",
+			"frequency": ["annual","1 day, October"],
+			"organised_by": ["Nada Žagar Youth Club (MKNŽ) Ilirska Bistrica","Pekarna Magdalena Network","FV Music"],
+			"website": "http://www.myspace.com/garageexplosion",
+			"email": "garage.explosion@gmail.com",
+			"duration_weeks": "42 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in October","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Music","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Garage Explosion Festival",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Gibanica (Moving Cake) Festival of Slovene Dance",
@@ -485,8 +711,20 @@
 			"telephone": "386 (0) 1 432 2390",
 			"street": "Društvo za sodobni ples Slovenije, Metelkova 6",
 			"town": "SI-1101 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Dance festivals","Festivals in February","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Gibanica (Moving Cake) Festival of Slovene Dance",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "GodiBodi Festival",
+			"frequency": ["annual","1 week, beginning of April"],
+			"organised_by": ["Celinka Agency","GodiBodi Institute"],
+			"website": "http://www.godibodi.si/",
+			"email": "info@godibodi.si",
+			"duration_weeks": "14 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Music","Festivals in April","WRITING","Festivals","NOT ROBOT","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=GodiBodi Festival",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Golden Drum Advertising Festival of New Europe",
@@ -497,18 +735,22 @@
 			"telephone": "386 (0) 1 439 6054",
 			"street": "Parmova ulica 53",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "40 (2012)",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals","Festivals in October","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Golden Drum Advertising Festival of New Europe",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
 		{
 			"label": "Golden Stick Festival",
-			"frequency": ["October, 1 week","biennially"],
+			"frequency": ["biennially","October, 1 week"],
 			"organised_by": "Ljubljana Puppet Theatre",
 			"website": "http://www.lgl.si",
 			"email": "info@lgl.si",
 			"telephone": "386 (0) 1 300 0970",
 			"street": "Krekov trg 2",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "40,41 (2011)",
+			"category": ["NOVERIFY","FERTIK","Festivals in October","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Golden Stick Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -521,6 +763,8 @@
 			"telephone": "386 (0) 41 380 517",
 			"street": "Prešernova 17",
 			"town": "SI-9240 Ljutomer",
+			"duration_weeks": "29 (2012)",
+			"category": ["Workshops","Film competitions","Competitions","PROOFREAD DONE","Film workshops","Articles maintained by Denis Valič","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE","FEATURED","NOVERIFY","FERTIK"],
 			"uri" : "http://www.culture.si/en/index.php?title=Grossmann Fantastic Film and Wine Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -533,8 +777,20 @@
 			"telephone": "386 (0) 1 438 0305",
 			"street": "Kersnikova 6",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","Festivals in November","New media art festivals","Articles maintained by Eva Lučka Kozak","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=HAIP Festival",
 			"type" : "Articles_maintained_by_Eva_Lučka_Kozak"
+		},
+		{
+			"label": "HISTeRIA Festival",
+			"frequency": ["annual","2 days, beginning of July"],
+			"organised_by": ["Teatro matita","Lutkarnica - Koper Puppetry Studio","TŠKD Sv. Miklavž, Elementary School and Gračišče Community"],
+			"website": "http://festivalhisteria.blogspot.com",
+			"email": "etno.histeria@gmail.com",
+			"duration_weeks": "27 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Articles maintained by Anže Virant","Music","WRITING","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=HISTeRIA Festival",
+			"type" : "Articles_maintained_by_Anže_Virant"
 		},
 		{
 			"label": "Idrija Lace Festival",
@@ -545,6 +801,8 @@
 			"telephone": "386 (0) 5 374 3916",
 			"street": "Vodnikova 3",
 			"town": "SI-5280 Idrija",
+			"duration_weeks": "24 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Festivals in June","Articles maintained by Admin","PHOTO","Intangible heritage","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","COVER","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Idrija Lace Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -556,18 +814,21 @@
 			"telephone": "386 (0) 5 995 9922",
 			"street": "Parmova 52",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals","PROOFREAD DONE","Festivals in March","NO PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Intercontinental Advertising CUP",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
 		{
 			"label": "International Ceramics Triennial Unicum",
 			"frequency": ["triennial","4 months"],
-			"organised_by": ["Union of Slovene Fine Arts Associations (ZDSLU)","European Cultural and Technological Centre (EKTC) Maribor"],
+			"organised_by": ["European Cultural and Technological Centre (EKTC) Maribor","Union of Slovene Fine Arts Associations (ZDSLU)"],
 			"website": "http://www.unicum.si/",
 			"email": "info@unicum.si",
 			"telephone": "386 (0) 1 443 0464",
 			"street": "Komenskega 8",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "20,21,22,23,24,25,26,27,28,39,30,31,32,33,34,35,36,37,38,39 (2012)",
+			"category": ["NOVERIFY","Visual arts competitions","FERTIK","Visual arts festivals","Competitions","Visual arts","PROOFREAD DONE","NO PHOTO","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Ceramics Triennial Unicum",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -578,6 +839,7 @@
 			"website": "http://www.brumen.org",
 			"email": "info@brumen.org",
 			"telephone": "386 (0) 41 944 967",
+			"category": ["Workshops","Festivals in October","PROOFREAD DONE","NO PHOTO","Design workshops","INFOBOX DONE","Festivals","NOT ROBOT","Design education","NODEPO","WRITING DONE","Design","Education","NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Design Event",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
@@ -590,6 +852,8 @@
 			"telephone": "386 (0) 1 434 0345",
 			"street": "Masarykova 24",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "10 (2012)",
+			"category": ["NOVERIFY","FERTIK","Visual arts festivals","PROOFREAD DONE","Festivals in March","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre festivals","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Feminist and Queer Festival Red Dawns",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -602,6 +866,7 @@
 			"telephone": "386 (0) 2 300 2996",
 			"street": "Ljubljanska 4",
 			"town": "SI-2000 Maribor",
+			"category": ["NOVERIFY","FERTIK","New media art","PROOFREAD DONE","NO PHOTO","Festivals in November","New media art festivals","NO LOGO","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Festival of Computer Arts (IFCA)",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -614,8 +879,23 @@
 			"telephone": "386 (0) 2 542 2360, 386 (0) 41 841 947",
 			"street": "Mladinska ulica 2",
 			"town": "SI-9231 Beltinci",
+			"duration_weeks": "30 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in July","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Dance festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Folkore Festival, Beltinci",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "International Mountain Film Festival Domžale",
+			"frequency": ["annual","5 days, beginning of April"],
+			"organised_by": "Mountain Culture Association",
+			"website": "http://www.imffd.com",
+			"email": "info@imffd.com",
+			"street": "Kamniška 13",
+			"town": "SI-1230 Domžale",
+			"duration_weeks": "13, 14 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Festivals in April","WRITING","Festivals","NOT ROBOT","Film","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=International Mountain Film Festival Domžale",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "International Saxophone Meeting",
@@ -626,17 +906,21 @@
 			"telephone": "386 (0) 5 335 4010",
 			"street": "Bevkov trg 4",
 			"town": "SI-5000 Nova Gorica",
+			"duration_weeks": "26 (2012)",
+			"category": ["PROOFREAD DONE","Music education","NO PHOTO","NO LOGO","Festivals in June","Articles maintained by Admin","Music","INFOBOX DONE","Festivals","NOT ROBOT","Music courses","Courses","NODEPO","WRITING DONE","Music festivals","NOVERIFY","FERTIK"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Saxophone Meeting",
 			"type" : "Articles_maintained_by_Admin"
 		},
 		{
 			"label": "International Youth Choir Festival",
+			"frequency": ["April, mid, 5 days","biennially"],
 			"organised_by": "Celeia Celje Institute",
 			"website": "http://www.celje.si/",
 			"email": "tic@celje.si",
 			"telephone": "386 (0) 3 428 7930",
 			"street": "Krekov trg 3",
 			"town": "SI-3000 Celje",
+			"category": ["NOVERIFY","NIFERTIK","Competitions","TOPROOFREAD","NO PHOTO","NO LOGO","Music competitions","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=International Youth Choir Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -647,8 +931,34 @@
 			"telephone": "386 (0) 5 641 8048, 386 (0) 5 641 5571",
 			"street": "Kraška 1",
 			"town": "SI-6310 Izola-Isola",
+			"category": ["NOVERIFY","FERTIK","Animation","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Izolanima - Slovene Animation Festival",
 			"type" : "Animation"
+		},
+		{
+			"label": "Izzven Jazz Festival, Maribor",
+			"frequency": "October, November",
+			"organised_by": "Narodni dom Maribor",
+			"website": "http://www.izzven.si",
+			"email": "jazz@nd-mb.si",
+			"telephone": "386 (0) 2 229 4000",
+			"street": "Kneza Koclja 9",
+			"town": "SI-2000 Maribor",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Festivals in November","NO LOGO","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Izzven Jazz Festival, Maribor",
+			"type" : "Articles_maintained_by_Anže_Zorman"
+		},
+		{
+			"label": "Jazzagorje World Accordion Festival",
+			"frequency": ["annual","6 days, June-September"],
+			"organised_by": "Delavski dom Zagorje Cultural Centre",
+			"website": "http://www.kulturnidom-zagorje.si/html/jazzagorje.html",
+			"email": "info@kulturnidom-zagorje.si",
+			"telephone": "386 (0) 3 566 4171, 386 (0) 41 489 305 (mobile)",
+			"duration_weeks": "23,24,26,27,34,35 (2011)",
+			"category": ["NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Festivals in July","Festivals in June","Music","WRITING","Festivals","Festivals in September","NOT ROBOT","Festivals in August","NODEPO","Music festivals","INFOBOX","NOVERIFY"],
+			"uri" : "http://www.culture.si/en/index.php?title=Jazzagorje World Accordion Festival",
+			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
 		{
 			"label": "Jazz Cerkno Festival",
@@ -659,6 +969,8 @@
 			"telephone": "386 (0) 5 374 5334",
 			"street": "Trg prekomorskih brigad 1",
 			"town": "SI-5282 Cerkno",
+			"duration_weeks": "20 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Festivals in May","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Jazz Cerkno Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -671,6 +983,7 @@
 			"telephone": "386 (0) 590 84 832, 386 (0) 41 399 659",
 			"street": "Dilančeva 1",
 			"town": "SI-8000 Novo mesto",
+			"category": ["Workshops","Music workshops","PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","Festivals in August","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE","Music festivals","Education","FEATURED","NOVERIFY","FERTIK","PROOFREAD DONE","Music education"],
 			"uri" : "http://www.culture.si/en/index.php?title=Jazzinty International Music Workshop and Festival",
 			"type" : "Education"
 		},
@@ -683,7 +996,22 @@
 			"telephone": "386 (0) 1 839 7606",
 			"street": "Podlimbarskega pot 4",
 			"town": "SI-1240 Kamnik",
+			"duration_weeks": "31,32,33 (2011)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","Articles maintained by Danaja Grešak","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kamfest",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
+		},
+		{
+			"label": "KantFest International",
+			"frequency": ["annual","1 day, beginning of June"],
+			"organised_by": "Cezam, center za mlade Ruše",
+			"website": "http://www.cezam.org/index.php?option=com_content&view=article&id=12&Itemid=53",
+			"telephone": "386 (0) 2 668 8446",
+			"street": "Trg vstaje 3",
+			"town": "SI-2342 Ruše",
+			"duration_weeks": "23 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in June","Music","WRITING","Festivals","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=KantFest International",
 			"type" : "Articles_maintained_by_Danaja_Grešak"
 		},
 		{
@@ -695,6 +1023,7 @@
 			"telephone": "386 (0) 5 374 5334",
 			"street": "Trg prekomorskih brigad 1",
 			"town": "SI-5282 Cerkno",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Keltika International Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -707,6 +1036,8 @@
 			"telephone": "386 (0) 2 229 4012, 386 (0) 2 299 4022",
 			"street": "Kneza Koclja 9",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "45,46 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","New media art","PROOFREAD DONE","New media art festivals","NO LOGO","Articles maintained by Admin","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=KIBLIX Linux IT Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -719,6 +1050,7 @@
 			"telephone": "386 (0) 1 200 3701",
 			"street": "Borštnikov trg 2",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kinofabula",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -730,6 +1062,8 @@
 			"email": "info@isolacinema.org",
 			"street": "Manziolijev trg 5",
 			"town": "SI-6310 Izola-Isola",
+			"duration_weeks": "22 (2012)",
+			"category": ["Workshops","NO PHOTO","Film workshops","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Film courses","Film","Courses","NODEPO","Film festivals","WRITING DONE","Education","NOVERIFY","FERTIK","Film education","PROOFREAD DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kino Otok - Isola Cinema Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -742,8 +1076,20 @@
 			"telephone": "386 (0) 1 426 9405, 386 (0) 41 200 390",
 			"street": "Prešernova 7",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in July","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","Theatre","Festivals in August","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kluže Ambient Festival",
 			"type" : "Articles_maintained_by_Admin"
+		},
+		{
+			"label": "Kogoj’s Days",
+			"frequency": ["annual","1 month, September/October"],
+			"organised_by": "Prosvetno društvo Soča Kanal",
+			"street": "Pionirska ulica 8",
+			"town": "SI-5213 Kanal ob Soči",
+			"duration_weeks": "35, 36, 37, 38, 39, 40, 41, 42 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in October","TOPROOFREAD","NO PHOTO","NO LOGO","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Kogoj’s Days",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Kontrada Festival",
@@ -754,8 +1100,22 @@
 			"telephone": "386 (0) 5 996 7669",
 			"street": "Klub kanalske mladine, Gradnikova ulica 25",
 			"town": "SI-5213 Kanal ob Soči",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in July","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kontrada Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Koper Festival of European and Mediterranean Film",
+			"frequency": ["annual","5 days, mid October"],
+			"organised_by": "FEMF Institute Ljubljana",
+			"website": "http://www.femf-koper.si/",
+			"email": "femf.koper@gmail.com",
+			"street": "V dolini 16",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "41 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in October","TOPROOFREAD","NO PHOTO","WRITING","Festivals","NOT ROBOT","Film","Articles maintained by Film maintainer","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Koper Festival of European and Mediterranean Film",
+			"type" : "Articles_maintained_by_Film_maintainer"
 		},
 		{
 			"label": "Koperground Festival",
@@ -766,8 +1126,20 @@
 			"telephone": "386 (0) 5 627 1989",
 			"street": "Gregorčičeva 4",
 			"town": "SI-6000 Koper-Capodistria",
+			"duration_weeks": "31,32,33 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","Film festivals","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Koperground Festival",
 			"type" : "Articles_maintained_by_Admin"
+		},
+		{
+			"label": "Krawal Festival",
+			"frequency": ["annual","2 days, July"],
+			"organised_by": "KD Rov",
+			"website": "http://www.rov-drustvo.si/krawal.html",
+			"duration_weeks": "29 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Music","WRITING","Festivals","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Krawal Festival",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
 		},
 		{
 			"label": "Kunigunda Festival of Young Cultures",
@@ -778,6 +1150,8 @@
 			"telephone": "386 (0) 3 898 1922, 386 (0) 3 898 1920",
 			"street": "Šaleška cesta 3",
 			"town": "SI-3320 Velenje",
+			"duration_weeks": "34,35 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","Maribor, European Capital of Culture 2012","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kunigunda Festival of Young Cultures",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -789,6 +1163,8 @@
 			"email": "info@kurentovanje.net",
 			"telephone": "386 (0) 2 748 2999",
 			"street": "Mestni trg 1",
+			"duration_weeks": "6,7,8 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","Intangible heritage","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in February","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Kurentovanje",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -801,6 +1177,8 @@
 			"telephone": "386 (0) 1 252 7108-9",
 			"street": "Café Teater, Miklošičeva 2",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "23 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in June","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=La Vie en Rose Festival of Chanson",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -813,6 +1191,7 @@
 			"street": "Kneza Koclja 9",
 			"town": "SI-2000 Maribor",
 			"duration_weeks": "25,26,27 (2012)",
+			"category": ["NO LOGO","Music","NOT ROBOT","Theatre","WRITING DONE","NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Festivals in July","Festivals in June","PHOTO","INFOBOX DONE","Festivals","Articles maintained by Ičo Vidmar","Theatre festivals","NODEPO","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Lent Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -825,6 +1204,7 @@
 			"telephone": "386 (0) 1 241 1000",
 			"street": "Aškerčeva 2",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Articles maintained by Dare Pejić","INFOBOX DONE","Literature festivals","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Liber.ac, Academic Book Fair",
 			"type" : "Articles_maintained_by_Dare_Pejić"
 		},
@@ -836,11 +1216,13 @@
 			"telephone": "386 (0) 1 231 9662",
 			"street": "Metelkova 6",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "20,21,22,23,24 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Visual arts festivals","PROOFREAD DONE","NO PHOTO","New media art festivals","Festivals in June","Articles maintained by Dare Pejić","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Lighting Guerrilla Festival",
 			"type" : "Articles_maintained_by_Dare_Pejić"
 		},
 		{
-			"label": "Linhart's Meetings",
+			"label": "Linhart Encounter",
 			"frequency": ["annual","October, early, 3 days"],
 			"organised_by": "Public Fund for Cultural Activities of the Republic of Slovenia",
 			"website": "http://www.jskd.si/gledalisce-in-lutke/uvod_gledalisce.htm",
@@ -848,16 +1230,21 @@
 			"telephone": "386 (0) 1 241 0500",
 			"street": "Štefanova 5",
 			"town": "SI-1000 Ljubljana",
-			"uri" : "http://www.culture.si/en/index.php?title=Linhart's Meetings",
+			"duration_weeks": "39 (2012)",
+			"category": ["NOVERIFY","FERTIK","Festivals in October","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
+			"uri" : "http://www.culture.si/en/index.php?title=Linhart Encounter",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
 		{
 			"label": "Lirikonfest",
+			"frequency": ["annual","May/June, 3-4 days"],
 			"organised_by": "Velenje Literary Foundation",
 			"website": "http://www.velenika-stropnik.si",
 			"telephone": "386 (0) 3 587 0920",
 			"street": "Kopališka 3",
 			"town": "SI-3320 Velenje",
+			"duration_weeks": "22 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Literature","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Lirikonfest",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
@@ -870,6 +1257,8 @@
 			"telephone": "386 (0) 1 430 3530",
 			"street": "Stari trg 21",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "23,24 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in June","WRITING","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Literature","NODEPO"],
 			"uri" : "http://www.culture.si/en/index.php?title=Living Literature Festival",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
@@ -882,30 +1271,36 @@
 			"telephone": "386 (0) 1 241 7147",
 			"street": "Prešernova cesta 10",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "12,13 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","Festivals in March","NO PHOTO","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ljubljana Documentary Film Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
 		{
 			"label": "Ljubljana Festival",
-			"frequency": ["annual","variable"],
+			"frequency": ["annual","summer, 2 months"],
 			"organised_by": "Festival Ljubljana Public Institute",
 			"website": "http://www.ljubljanafestival.si",
 			"email": "info@ljubljanafestival.si",
 			"telephone": "386 (0) 1 241 6000",
 			"street": "Trg francoske revolucije 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "25,26,27,28,29,30,31,32,33,34,35,36 (2012)",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Gregor Pompe","PROOFREAD DONE","NO PHOTO","Festivals in July","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ljubljana Festival",
 			"type" : "Articles_maintained_by_Gregor_Pompe"
 		},
 		{
 			"label": "Ljubljana Gay and Lesbian Film Festival",
-			"frequency": ["annual","December, early, 1 week"],
+			"frequency": ["annual","November, late / December, early, 1 week"],
 			"organised_by": "ŠKUC Association",
 			"website": "http://www.ljudmila.org/siqrd/fglf",
 			"email": "siqrd@mail.ljudmila.org",
 			"telephone": "386 (0) 1 432 7368",
 			"street": "Stari trg 21",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "46,47 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","Festivals in December","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ljubljana Gay and Lesbian Film Festival",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -918,6 +1313,7 @@
 			"telephone": "+386 (0)1 241 7147",
 			"street": "Prešernova 10",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Festivals in November","Articles maintained by Denis Valič","INFOBOX DONE","Festivals","NOT ROBOT","Film","NODEPO","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ljubljana International Film Festival (LIFFe)",
 			"type" : "Articles_maintained_by_Denis_Valič"
 		},
@@ -930,8 +1326,19 @@
 			"telephone": "386 (0) 1 241 7147",
 			"street": "Prešernova 10",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "26 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in June","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ljubljana Jazz Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
+		},
+		{
+			"label": "Love Festival",
+			"frequency": ["annual","3 days, beginning of April"],
+			"organised_by": "KIBLA Multimedia Centre",
+			"duration_weeks": "14 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","Festivals in April","WRITING","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Literature maintainer","Literature","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Love Festival",
+			"type" : "Articles_maintained_by_Literature_maintainer"
 		},
 		{
 			"label": "Luksuz Cheap Film Festival",
@@ -942,6 +1349,8 @@
 			"telephone": "386 (0) 31 276 275",
 			"street": "Cesta 4. julija 58",
 			"town": "SI-8270 Krško",
+			"duration_weeks": "35 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","PROOFREAD DONE","Articles maintained by Admin","PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","Film","NODEPO","COVER","Film festivals","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Luksuz Cheap Film Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -954,6 +1363,8 @@
 			"telephone": "386 (0) 1 542 1422",
 			"street": "Povšetova 37",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "37 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","INFOBOX DONE","Festivals","Festivals in September","Support services","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=LUPA Slovene Non-Governmental Organisations’ Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -966,6 +1377,8 @@
 			"telephone": "386 (0) 1 300 0970",
 			"street": "Krekov trg 2",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "37,38 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Festivals in September","NOT ROBOT","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Lutke International Puppet Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -978,8 +1391,19 @@
 			"telephone": "386 (0) 30 698 623",
 			"street": "Roška 11",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "20 (2012)",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals","Competitions","PROOFREAD DONE","NO PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Design competitions","WRITING DONE","Festivals in May","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Magdalena International Festival of Creative Communication",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
+		},
+		{
+			"label": "Magdalenca Festival of World Cultures",
+			"frequency": ["annual","1 day, June"],
+			"website": "http://www.magdalenca.si/",
+			"duration_weeks": "23 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in June","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Magdalenca Festival of World Cultures",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Mardi Gras at Cerknica",
@@ -987,9 +1411,10 @@
 			"organised_by": "Municipality of Cerknica",
 			"website": "http://www.cerknica.net/pust",
 			"email": "pust@cerknica.net",
-			"telephone": "386 (0) 41 650 950",
 			"street": "Pustno društvo Cerknica, Tabor 1",
 			"town": "SI-1380 Cerknica",
+			"duration_weeks": "7,8 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Articles maintained by Heritage maintainer","TOPROOFREAD","NO PHOTO","NO LOGO","Intangible heritage","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in February","NODEPO"],
 			"uri" : "http://www.culture.si/en/index.php?title=Mardi Gras at Cerknica",
 			"type" : "Articles_maintained_by_Heritage_maintainer"
 		},
@@ -1003,6 +1428,7 @@
 			"street": "Kneza Koclja 9",
 			"town": "SI-2000 Maribor",
 			"duration_weeks": "8 (2011)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in February","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Maribor Electronic Destination International Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -1014,6 +1440,7 @@
 			"telephone": "386 (0) 2 228 1250",
 			"street": "Vetrinjska 30",
 			"town": "SI-2000 Maribor",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Maribor, European Capital of Culture 2012",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1026,6 +1453,8 @@
 			"telephone": "386 (0) 2 228 1257",
 			"street": "Vetrinjska ulica 30",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "36,37 (2012)",
+			"category": ["FERTIK","Articles maintained by Gregor Pompe","PROOFREAD DONE","PHOTO","Music","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Maribor, European Capital of Culture 2012","NODEPO","COVER","WRITING DONE","Music festivals","NOVERIFY","FEATURED"],
 			"uri" : "http://www.culture.si/en/index.php?title=Maribor Festival",
 			"type" : "Articles_maintained_by_Gregor_Pompe"
 		},
@@ -1038,19 +1467,37 @@
 			"telephone": "386 (0) 2 250 6227, 386 (0) 2 250 6100",
 			"street": "Slovenska 27",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "40,41,42 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","Festivals in October","PROOFREAD DONE","PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","COVER","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Maribor Theatre Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
 		{
-			"label": "Medieval Days, Kamnik",
-			"frequency": ["annual","June, 2 days"],
-			"website": "http://www.kamnik-tourism.si",
-			"email": "tic@kamnik-tourism.si",
-			"telephone": "386 (0) 1 831 8250",
-			"street": "Glavni trg 2",
-			"town": "SI-1240 Kamnik",
-			"uri" : "http://www.culture.si/en/index.php?title=Medieval Days, Kamnik",
-			"type" : "Articles_maintained_by_Heritage_maintainer"
+			"label": "May Salon",
+			"frequency": ["annual","May, 1 month"],
+			"website": "http://www.dlul-drustvo.si",
+			"email": "info@zveza-dslu.si",
+			"telephone": "386 (0) 1 433 0464",
+			"street": "Zveza društev slovenskih likovnih umetnikov (ZDSLU), Komenskega 8",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "18,19,20,21,22 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Visual arts festivals","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals","NOT ROBOT","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE"],
+			"uri" : "http://www.culture.si/en/index.php?title=May Salon",
+			"type" : "Articles_maintained_by_Maja_Škerbot"
+		},
+		{
+			"label": "Mediafest, Festival of Contemporary Music and Digital Art, Celje",
+			"frequency": "annual",
+			"organised_by": "Celje Youth Centre",
+			"website": "http://www.mc-celje.si",
+			"email": "info@mc-celje.si",
+			"telephone": "386 (0) 3 490 8740",
+			"street": "Mariborska 2",
+			"town": "SI-3000 Celje",
+			"duration_weeks": "44,45,46 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","New media art","TOPROOFREAD","NO PHOTO","New media art festivals","Festivals in November","NO LOGO","WRITING","Articles maintained by Visual and new media art maintainer","Festivals","NOT ROBOT","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Mediafest, Festival of Contemporary Music and Digital Art, Celje",
+			"type" : "Articles_maintained_by_Visual_and_new_media_art_maintainer"
 		},
 		{
 			"label": "Mediterranean International Folklore Festival (MIFF)",
@@ -1061,6 +1508,8 @@
 			"telephone": "386 (0) 5 673 4573",
 			"street": "Prvomajski trg 2",
 			"town": "SI-6330 Piran-Pirano",
+			"duration_weeks": "27 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Festivals in July","PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Dance","NOT ROBOT","Dance festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Mediterranean International Folklore Festival (MIFF)",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1073,29 +1522,44 @@
 			"telephone": "386 (0) 41 953 695",
 			"street": "Slovenska cesta 55b",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "25 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Articles maintained by Tea Pristolič","Design festivals","TOPROOFREAD","NO PHOTO","NO LOGO","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO"],
 			"uri" : "http://www.culture.si/en/index.php?title=Memefest - International Festival of Radical Communication",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
 		{
 			"label": "Metalcamp",
-			"frequency": ["July, early, 7 days","Annual"],
+			"frequency": ["summer, 7 days","Annual"],
 			"organised_by": "RTN &amp; MOM d.o.o.",
 			"website": "http://www.metalcamp.com",
 			"email": "office@metalcamp.com",
 			"street": "Tržaška cesta 330",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "32 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Metalcamp",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
 		{
+			"label": "Metal Mania Open Air Festival",
+			"frequency": ["annual","2 days, mid August"],
+			"website": "http://www.metalmaniafest.com/",
+			"duration_weeks": "32 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","Articles maintained by Danaja Grešak","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Metal Mania Open Air Festival",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
+		},
+		{
 			"label": "Mini Summer - International Festival for Children",
-			"frequency": ["annual","Annual, in summer"],
+			"frequency": ["annual","Annual, in summer, weekends"],
 			"organised_by": "Mini Theatre",
 			"website": "http://www.mini-teater.si/client.si/index.php?table=articles&ID=10",
 			"email": "info@mini-teater.si",
 			"telephone": "386 (0) 1 425 6060",
 			"street": "Mini teater, Križevniška 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "27,28,29,30,31,32,34,35 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Mini Summer - International Festival for Children",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1108,6 +1572,8 @@
 			"telephone": "386 (0) 5 971 0001, 386 (0) 51 269 906",
 			"street": "Slomškova 11",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "33,34,35 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","PROOFREAD DONE","PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Festivals in August","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Mladi levi Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1120,6 +1586,8 @@
 			"telephone": "386 (0) 1 431 2222",
 			"street": "Dunajska cesta 20",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "41,42,43,44,45 (2012)",
+			"category": ["Fashion design","PROOFREAD DONE","PHOTO","Interior design","INFOBOX DONE","Festivals","Industrial design","NOT ROBOT","NODEPO","COVER","WRITING DONE","Design","NOVERIFY","FEATURED","FERTIK","Articles maintained by Tea Pristolič","Design festivals","Festivals in October"],
 			"uri" : "http://www.culture.si/en/index.php?title=Month of Design",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
@@ -1131,6 +1599,8 @@
 			"telephone": "386 (0) 2 250 1316",
 			"street": "Partizanska 5",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "32,33,34,35 (2012)",
+			"category": ["FEATURED","NOVERIFY","FERTIK","PROOFREAD DONE","PHOTO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Festivals in September","Dance","NOT ROBOT","Dance festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=NagiB Contemporary Dance Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1143,30 +1613,36 @@
 			"telephone": "386 (0) 41 223701",
 			"street": "Kulturnoumetniško društvo France Prešeren (KUD France Prešeren), Karunova 14",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "39 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Festivals in October","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Naked Stage International Improvisational Theatre Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
 		{
 			"label": "Naša pesem Choir Competition",
 			"frequency": ["annual","April, mid, 2-3 days"],
-			"organised_by": ["Public Fund for Cultural Activities of the Republic of Slovenia","Maribor Branch"],
+			"organised_by": ["Maribor Branch","Public Fund for Cultural Activities of the Republic of Slovenia"],
 			"website": "http://www.jskd.si",
 			"email": "oi.maribor@jskd.si",
 			"telephone": "386 (0) 2 234 2117",
 			"street": "Partizanska 5",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "16 (2012)",
+			"category": ["NIFERTIK","Competitions","TOPROOFREAD","NO PHOTO","NO LOGO","Music competitions","Festivals in April","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Naša pesem Choir Competition",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "No Border Jam Festival",
 			"frequency": ["annual","August, late, 2 days"],
-			"organised_by": "MKC Maribor Youth Culture Centre",
-			"website": "http://www.mkc.si/",
-			"email": "mkc.maribor@guest.arnes.si",
-			"telephone": "386 (0) 2 300 2990, 386 (0) 2 250 9343",
+			"organised_by": "Subkulturni azil Maribor",
+			"website": "http://www.ljudmila.org/subkulturni-azil/",
+			"email": "noborderjam1@gmail.com",
+			"telephone": "386 (0) 2 647 6381",
 			"street": "Ljubljanska 4",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "34 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=No Border Jam Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -1175,9 +1651,21 @@
 			"frequency": ["annual","April, early, 2 days"],
 			"website": "http://drmk.slohosting.com/si.noise.html",
 			"email": "janez.gobec@gmail.com",
-			"street": "DRMK - Društvo za razvoj mladinske kulture, Lepodvorska 23",
+			"street": "Lepodvorska 23",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "13 (2011)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in April","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Noise Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "OFF Oboe Bassoon Festival",
+			"frequency": ["annual","1 week, end July"],
+			"website": "http://fagott1.macbay.de/",
+			"email": "off_izola@yahoo.de",
+			"duration_weeks": "38 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=OFF Oboe Bassoon Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
@@ -1189,6 +1677,8 @@
 			"telephone": "386 (0) 4 574 1458",
 			"street": "Riklijeva cesta 9",
 			"town": "SI-4260 Bled",
+			"duration_weeks": "31,32 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Okarina Folk Music Festival, Bled",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -1197,20 +1687,66 @@
 			"frequency": ["annual","April, entire month"],
 			"website": "http://www.orto-bar.com/koncert.html",
 			"email": "info@orto-bar.com",
-			"telephone": "386 (0) 232 1674",
+			"telephone": "386 (0) 1 232 1674",
 			"street": "Orto bar, Grablovičeva 1",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in April","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Orto Fest",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
+			"label": "Overflight International Theatre Festival",
+			"frequency": ["annual","21,22 (2011)"],
+			"organised_by": "Mladinsko Theatre",
+			"website": "http://www.mladinsko.com",
+			"email": "info@mladinsko-gl.si",
+			"telephone": "386 (0) 1 300 4900",
+			"street": "Vilharjeva 11",
+			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Theatre","Articles maintained by Dance and theatre maintainer","Theatre festivals","NODEPO","Festivals in May"],
+			"uri" : "http://www.culture.si/en/index.php?title=Overflight International Theatre Festival",
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
+		},
+		{
+			"label": "Pandamonium",
+			"frequency": ["annual","1-2 days, beginning of July"],
+			"organised_by": "Panda Banda",
+			"website": "http://www.panda-banda.org/post/6658517041/pandamoniums",
+			"email": "pandabandacrew@gmail.com",
+			"duration_weeks": "27 (2011) 28 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Pandamonium",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
+		},
+		{
+			"label": "Paranoid Open Air Festival",
+			"frequency": ["annual","2 days, end of August"],
+			"website": "http://www.paranoidopenair.com/",
+			"duration_weeks": "34 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Paranoid Open Air Festival",
+			"type" : "Articles_maintained_by_Anže_Zorman"
+		},
+		{
+			"label": "Personal-Collective Festival",
+			"frequency": ["annual","2 days, beginning of July"],
+			"organised_by": "KUD Mreža Arts and Culture Association",
+			"duration_weeks": "27 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Music","WRITING","Festivals","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Personal-Collective Festival",
+			"type" : "Articles_maintained_by_Danaja_Grešak"
+		},
+		{
 			"label": "Photonic Moments – Month of Photography",
-			"frequency": ["biennially","October, November, 1 month"],
+			"frequency": ["June, 1 month","biennially"],
 			"organised_by": "Photon Gallery",
 			"website": "http://www.photonicmoments.net",
+			"email": "info@photon.si",
 			"telephone": "386 (0) 1 230 2071, 386 (0) 59 977 907",
 			"street": "Križevniška 10",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "22,23,24,25,26 (2012)",
+			"category": ["NOVERIFY","Articles maintained by Editor","Photography","FERTIK","Visual arts festivals","Visual arts","Festivals in October","PROOFREAD DONE","NO PHOTO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Photonic Moments – Month of Photography",
 			"type" : "Articles_maintained_by_Editor"
 		},
@@ -1223,6 +1759,8 @@
 			"telephone": "386 (0) 3 898 2570",
 			"street": "Titov trg 4",
 			"town": "SI-3320 Velenje",
+			"duration_weeks": "37,38 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","NO LOGO","Articles maintained by Admin","PHOTO","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Maribor, European Capital of Culture 2012","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Pika's Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1235,6 +1773,8 @@
 			"telephone": "386 (0) 5 671 2080",
 			"street": "Tartinijev trg 3",
 			"town": "SI-6330 Piran-Pirano",
+			"duration_weeks": "46 (2012)",
+			"category": ["NOVERIFY","Architecture festivals","Architecture education","FERTIK","Articles maintained by Tea Pristolič","PROOFREAD DONE","NO PHOTO","Festivals in November","Architecture","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Education"],
 			"uri" : "http://www.culture.si/en/index.php?title=Piran Days of Architecture",
 			"type" : "Architecture"
 		},
@@ -1247,8 +1787,23 @@
 			"telephone": "386 (0) 5 335 4015",
 			"street": "Bevkov trg 4",
 			"town": "SI-5000 Nova Gorica",
+			"duration_weeks": "47,48 (2012)",
+			"category": ["FERTIK","Competitions","New media art","New media art competitions","PROOFREAD DONE","NO PHOTO","Festivals in November","New media art festivals","NO LOGO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Pixxelpoint International Festival of Computer Art",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
+		},
+		{
+			"label": "PLESkavica Festival",
+			"frequency": ["annual","4 days, mid June"],
+			"organised_by": "Fičo Balet",
+			"website": "http://www.ficobalet.org/Ficobalet_en.html",
+			"email": "ficobalet@yahoo.com",
+			"street": "Gradaška 16",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "24,25 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in June","WRITING","Festivals","Dance","NOT ROBOT","Dance festivals","Articles maintained by Dance and theatre maintainer","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=PLESkavica Festival",
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
 		},
 		{
 			"label": "Pomurje Summer Festival (PPF)",
@@ -1259,6 +1814,8 @@
 			"telephone": "386 (0) 2 573 7327",
 			"street": "Velika Polana 217",
 			"town": "SI-9225 Velika Polana",
+			"duration_weeks": "31 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Pomurje Summer Festival (PPF)",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1271,18 +1828,21 @@
 			"telephone": "386 (0) 51 669 606",
 			"street": "Slovenska cesta 11",
 			"town": "SI-1000 Ljubljana",
+			"category": ["Competitions","PROOFREAD DONE","NO PHOTO","Design workshops","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Collections","Graphic design","NODEPO","Design competitions","WRITING DONE","Design","NOVERIFY","FERTIK","Articles maintained by Tea Pristolič","Design festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Poster Festival Ljubljana",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
 		{
 			"label": "Postojna Blues Festival",
-			"frequency": ["annual","Oct, end, 1 day"],
+			"frequency": ["annual","Oct-May, 1 day a month"],
 			"organised_by": "Postojnska jama d.d.",
 			"website": "http://www.postojna-blues.si/",
 			"email": "blues@turizem-kras.si",
 			"telephone": "386 (0) 5 700 0100",
 			"street": "Jamska cesta 30",
 			"town": "SI-6230 Postojna",
+			"duration_weeks": "4,7,12,16,24 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Ičo Vidmar","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Postojna Blues Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -1295,31 +1855,53 @@
 			"telephone": "386 (0) 31 258 116",
 			"street": "Celjska 1",
 			"town": "SI-3240 Šmarje pri Jelšah",
+			"duration_weeks": "26 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Festivals in July","PHOTO","INFOBOX DONE","Literature festivals","Festivals","NOT ROBOT","Articles maintained by Anja Mrak","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Pranger Festival",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
 		{
-			"label": "Predihano Series of New Music",
-			"organised_by": ["Cankarjev dom, Music Programme","Cankarjev dom, Cultural and Congress Centre"],
-			"website": "http://www.cd-cc.si/",
-			"email": "info@cd-cc.si",
-			"telephone": "386 (0) 1 241 7147",
-			"street": "Prešernova 10",
-			"town": "SI-1000 Ljubljana",
-			"uri" : "http://www.culture.si/en/index.php?title=Predihano Series of New Music",
-			"type" : "Articles_maintained_by_Gregor_Pompe"
-		},
-		{
 			"label": "PreGlej na glas! Playwriting Festival",
-			"frequency": ["annual","March, 1 week"],
-			"organised_by": ["Glej Theatre","Integrali Cultural Association"],
+			"frequency": "annual",
+			"organised_by": ["Integrali Cultural Association","Glej Theatre"],
 			"website": "http://www.pre-glej.si",
 			"email": "pre-glej@guest.arnes.si",
 			"telephone": "386 (0) 1 251 6679",
 			"street": "Gregorčičeva 3",
 			"town": "SI-1000 Ljubljana",
+			"category": ["FERTIK","PROOFREAD DONE","Festivals in March","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Literature festivals","NOT ROBOT","Theatre","Theatre festivals","Literature","NODEPO","WRITING DONE","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=PreGlej na glas! Playwriting Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "Primorska Summer Festival, Koper-Capodistria",
+			"organised_by": "Primorska Summer Festival Association",
+			"website": "http://www.primorski-festival.si",
+			"email": "pp.festival@siol.net",
+			"telephone": "386 (0) 5 627 1788",
+			"street": "Carpacciov trg 2",
+			"town": "SI-6000 Koper-Capodistria",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","WRITING","Festivals","NOT ROBOT","Articles maintained by Dance and theatre maintainer","Theatre festivals","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Primorska Summer Festival, Koper-Capodistria",
+			"type" : "Articles_maintained_by_Dance_and_theatre_maintainer"
+		},
+		{
+			"label": "Punk Rock Holiday",
+			"frequency": ["annual","4 days, end of August"],
+			"website": "http://www.punkrockholiday.com/",
+			"duration_weeks": "32 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","Music","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Punk Rock Holiday",
+			"type" : "Articles_maintained_by_Anže_Zorman"
+		},
+		{
+			"label": "Rad bi bil normalen Festival",
+			"frequency": ["annual","3 days, mid October"],
+			"website": "http://www.normalen.si/",
+			"duration_weeks": "40,41 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in October","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Rad bi bil normalen Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Radovljica Festival",
@@ -1328,6 +1910,8 @@
 			"telephone": "386 (0) 4 531 2291",
 			"street": "Linhartov trg 1",
 			"town": "SI-4240 Radovljica",
+			"duration_weeks": "31,32,33,34 (2012)",
+			"category": ["FEATURED","NOVERIFY","Articles maintained by Editor","FERTIK","PROOFREAD DONE","PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","COVER","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Radovljica Festival",
 			"type" : "Articles_maintained_by_Editor"
 		},
@@ -1340,6 +1924,8 @@
 			"telephone": "386 (0) 1 283 8341, 386 (0) 41 905208",
 			"street": "Metelkova 6",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "21 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Dance","NOT ROBOT","Dance festivals","Theatre festivals","NODEPO","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=Rdeči revirji! - Red Beats! Festival",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1352,7 +1938,18 @@
 			"telephone": "386 (0) 7 337 9650, 386 (0) 41 271 403",
 			"street": "Novi trg 10",
 			"town": "SI-8000 Novo mesto",
+			"duration_weeks": "26 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in July","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","Maribor, European Capital of Culture 2012","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Rock Otočec",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Romano Čhon Festival",
+			"frequency": ["annual","1 month, April"],
+			"website": "http://romanochon.org/",
+			"duration_weeks": "13,14,15,16,17 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","Festivals in April","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Romano Čhon Festival",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
@@ -1364,6 +1961,8 @@
 			"telephone": "386 (0) 590 16 445",
 			"street": "Gregorčičeva 2",
 			"town": "SI-5220 Tolmin",
+			"duration_weeks": "29 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Articles maintained by Anže Zorman","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in July","Music","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Sajeta Creative Camp",
 			"type" : "Articles_maintained_by_Anže_Zorman"
 		},
@@ -1376,8 +1975,22 @@
 			"telephone": "386 (0) 1 514 1628, 386 (0) 1 514 1629",
 			"street": "Alešovčeva 37",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Dare Pejić","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Sanje ('Dreams') Festival",
 			"type" : "Articles_maintained_by_Dare_Pejić"
+		},
+		{
+			"label": "Schengenfest",
+			"frequency": ["annual","3 days, beginning of August"],
+			"organised_by": "KUD Bela krajina",
+			"website": "http://www.schengenfest.si",
+			"email": "info@schengenfest.si",
+			"street": "Podklanec 7a",
+			"town": "SI-8344 Vinica",
+			"duration_weeks": "31 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Schengenfest",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Seviqc Brežice Festival",
@@ -1388,6 +2001,8 @@
 			"telephone": "386 (0) 1 242 0812, 386 (0) 51 303 040",
 			"street": "Slovenska cesta 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "25,26,27,28,29,30,31,32,33,34,35 (2012)",
+			"category": ["NOVERIFY","Articles maintained by Miha Zadnikar","FERTIK","PROOFREAD DONE","NO PHOTO","Festivals in June","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","COVER","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Seviqc Brežice Festival",
 			"type" : "Articles_maintained_by_Miha_Zadnikar"
 		},
@@ -1400,6 +2015,8 @@
 			"telephone": "386 (0) 1 439 6054",
 			"street": "Parmova 53",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "13 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Articles maintained by Tea Pristolič","Design festivals","Festivals in March","TOPROOFREAD","NO PHOTO","NO LOGO","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Design"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Advertising Festival (SOF)",
 			"type" : "Articles_maintained_by_Tea_Pristolič"
 		},
@@ -1412,29 +2029,22 @@
 			"telephone": "386 (0) 1 251 4144, 386 (0) 1 425 2340, 386 (0) 1 421 6430",
 			"street": "Tomšičeva 12",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "16 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in April","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Book Days",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
 		{
-			"label": "Slovene Book Fair",
-			"frequency": ["annual","November-December, 5 days"],
-			"organised_by": ["Cankarjev dom, Cultural and Congress Centre","Association of Book Publishers"],
-			"website": "http://www.knjiznisejem.si",
-			"telephone": "386 (0) 1 241 7141",
-			"street": "Cankarjev dom, Prešernova 10",
-			"town": "SI-1000 Ljubljana",
-			"uri" : "http://www.culture.si/en/index.php?title=Slovene Book Fair",
-			"type" : "Articles_maintained_by_Admin"
-		},
-		{
 			"label": "Slovene Choirs Meeting in Šentvid, Stična",
 			"frequency": ["annual","June, 2 days"],
-			"organised_by": ["Šentvid Elementary School","Ivančna Gorica JSKD Local Branch"],
+			"organised_by": ["Ivančna Gorica JSKD Local Branch","Šentvid Elementary School"],
 			"website": "http://www.pevski-tabor.si/",
 			"email": "info@pevski-tabor.si",
 			"telephone": "386 (0) 1 788 7802",
 			"street": "Šentvid pri Stični 46",
 			"town": "SI-1295 Ivančna Gorica",
+			"duration_weeks": "24 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in June","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Choirs Meeting in Šentvid, Stična",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -1446,18 +2056,22 @@
 			"email": "info@mgp.si",
 			"telephone": "386 (0) 2 749 3250",
 			"street": "Slovenski trg 13",
+			"duration_weeks": "15,16 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Festivals in November","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Festival of Chamber Theatre (SKUP)",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
 		{
 			"label": "Slovene Music Days",
-			"frequency": ["annual","July - August, 2 months"],
+			"frequency": ["annual","March, 3 days"],
 			"organised_by": "Festival Ljubljana Public Institute",
 			"website": "http://www.ljubljanafestival.si",
 			"email": "info@ljubljanafestival.si",
 			"telephone": "386 (0) 1 241 6000",
 			"street": "Trg francoske revolucije 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "11 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Festivals in July","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Music Days",
 			"type" : "Articles_maintained_by_Music_maintainer"
 		},
@@ -1470,8 +2084,20 @@
 			"telephone": "386 (0) 41 663 904",
 			"street": "Draveljska 44",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Festivals in September","Puppetry","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovene Puppetry Biennial",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "Slovenian Independent Illustrators' Biennial",
+			"frequency": ["annual","10 days, mid October"],
+			"organised_by": "Tretaroka Institute",
+			"website": "http://www.bienaleneodvisneilustracije.com",
+			"email": "info@bienaleneodvisnih.com",
+			"duration_weeks": "42,43 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Visual arts festivals","Visual arts","Festivals in October","TOPROOFREAD","NO PHOTO","WRITING","Festivals","NOT ROBOT","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Slovenian Independent Illustrators' Biennial",
+			"type" : "Festivals"
 		},
 		{
 			"label": "Slovenia Press Photo Festival",
@@ -1480,6 +2106,8 @@
 			"email": "natecaj@sloveniapressphoto.si",
 			"street": "Juvanova 31",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "9,10,11,12,13 (2012)",
+			"category": ["NOVERIFY","Photography","FERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO PHOTO","Articles maintained by Admin","INFOBOX DONE","Festivals","NOT ROBOT","Festivals in February","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slovenia Press Photo Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1491,6 +2119,8 @@
 			"telephone": "386 (0) 41 371 370",
 			"street": "Prešernov trg 1",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "40,41 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Festivals in October","TOPROOFREAD","NO PHOTO","NO LOGO","Articles maintained by Maia Golobič","Music","WRITING","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Slowind Festival",
 			"type" : "Articles_maintained_by_Maia_Golobič"
 		},
@@ -1503,8 +2133,32 @@
 			"telephone": "386 (0) 40 809 809",
 			"street": "Rožna dolina cesta II/36",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","New media art","PROOFREAD DONE","NO PHOTO","New media art festivals","NO LOGO","Articles maintained by Admin","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Sonica International Festival of Transitory Art",
 			"type" : "Articles_maintained_by_Admin"
+		},
+		{
+			"label": "Sound Explicit Festival",
+			"frequency": ["annual","2 days, mid September"],
+			"organised_by": "P.A.R.A.S.I.T.E. Institute",
+			"website": "http://www.zavod-parasite.si/slo/program/sound-explicit",
+			"email": "tpogacar@yahoo.com",
+			"street": "Prušnikova 74",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "37 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","Festivals in September","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Sound Explicit Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Spectrum Festival",
+			"frequency": ["annual","2 days, April (Slovenia) and October (Germany)"],
+			"organised_by": ["Society for Promotion of Chamber Music Spektrum","Festival Ljubljana Public Institute"],
+			"website": "http://www.music-spectrum.com/",
+			"duration_weeks": "15 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","Festivals in April","WRITING","Festivals","NOT ROBOT","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Spectrum Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Speculum Artium Festival",
@@ -1515,6 +2169,8 @@
 			"telephone": "386 (0) 3 563 3481",
 			"street": "Trg svobode 11a",
 			"town": "SI-1420 Trbovlje",
+			"duration_weeks": "16 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","New media art","PROOFREAD DONE","New media art festivals","Articles maintained by Eva Lučka Kozak","PHOTO","Festivals in April","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","COVER","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Speculum Artium Festival",
 			"type" : "Articles_maintained_by_Eva_Lučka_Kozak"
 		},
@@ -1527,8 +2183,50 @@
 			"telephone": "386 (0) 40 809 809",
 			"street": "Rožna dolina, cesta II/36",
 			"town": "SI-1000 Ljubljana",
+			"category": ["FERTIK","New media art","PROOFREAD DONE","NO PHOTO","New media art festivals","NO LOGO","Articles maintained by Admin","Festivals in April","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Spring Festival",
 			"type" : "Articles_maintained_by_Admin"
+		},
+		{
+			"label": "Stična Festival",
+			"frequency": ["annual","2 weeks, end of November"],
+			"website": "http://www.kd-sticna.si/Default.aspx?tabid=54",
+			"duration_weeks": "46,47,48 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Music","Festivals in April","WRITING","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Stična Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
+		},
+		{
+			"label": "Stoptrik International Film Festival",
+			"frequency": ["annual","3 days, August"],
+			"organised_by": "Pekarna Magdalena Network",
+			"duration_weeks": "24 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","WRITING","Festivals","NOT ROBOT","Festivals in August","Film","Articles maintained by Film maintainer","NODEPO","Film festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Stoptrik International Film Festival",
+			"type" : "Articles_maintained_by_Film_maintainer"
+		},
+		{
+			"label": "Storytelling Festival",
+			"frequency": ["annual","2 weeks, mid March"],
+			"organised_by": "Cankarjev dom, Cultural and Congress Centre",
+			"duration_weeks": "10,11,12 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Festivals in March","TOPROOFREAD","NO PHOTO","Music","WRITING","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Literature maintainer","Literature","NODEPO","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Storytelling Festival",
+			"type" : "Articles_maintained_by_Literature_maintainer"
+		},
+		{
+			"label": "Summer Imago Sloveniae Festival",
+			"frequency": ["annual","3 months, June-August"],
+			"organised_by": "Imago Sloveniae",
+			"website": "http://www.imagosloveniae.net",
+			"email": "imago@siol.net",
+			"telephone": "386 (0) 1 241 6600",
+			"street": "Gornji trg 16",
+			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "22,23,24,25,26,27,28,29,30,31,32,33,34,35 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","Festivals in July","Festivals in June","Music","WRITING","Festivals","NOT ROBOT","Festivals in August","NODEPO","Articles maintained by Music maintainer","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=Summer Imago Sloveniae Festival",
+			"type" : "Articles_maintained_by_Music_maintainer"
 		},
 		{
 			"label": "Summer Puppet Pier Festival",
@@ -1539,6 +2237,8 @@
 			"telephone": "386 (0) 2 228 1970",
 			"street": "Vojašniški trg 2",
 			"town": "SI-2000 Maribor",
+			"duration_weeks": "31,32,33,34,35 (2012)",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Articles maintained by Admin","PHOTO","INFOBOX DONE","Festivals","Puppetry","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Summer Puppet Pier Festival",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1550,6 +2250,7 @@
 			"email": "info@pasijon.si",
 			"telephone": "386 (0) 4 511 2460",
 			"street": "Mestni trg 34",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Articles maintained by Admin","Intangible heritage","INFOBOX DONE","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Škofja Loka Passion Play",
 			"type" : "Articles_maintained_by_Admin"
 		},
@@ -1562,6 +2263,8 @@
 			"telephone": "386 (0) 31 419 016, 386 (0) 40 187 803 (mobiles)",
 			"street": "Levstikova 7",
 			"town": "SI-6330 Piran-Pirano",
+			"duration_weeks": "34,35,36 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","Articles maintained by Maia Golobič","Music","INFOBOX DONE","Festivals","Festivals in September","NOT ROBOT","Festivals in August","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Tartini Festival",
 			"type" : "Articles_maintained_by_Maia_Golobič"
 		},
@@ -1574,8 +2277,18 @@
 			"telephone": "386 (0) 1 241 7100, 386 (0) 1 241 7147 (Arts and Culture Department)",
 			"street": "Prešernova 10",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "16 (2012)",
+			"category": ["Visual arts festivals","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in April","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Literature festivals","NOT ROBOT","Theatre festivals","NODEPO","WRITING DONE","Music festivals","NOVERIFY","FERTIK","Design festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Transgenerations Festival of Youth Creativity",
 			"type" : "Articles_maintained_by_Katja_Kosi"
+		},
+		{
+			"label": "TRESK Festival",
+			"organised_by": ["Radio Študent (RŠ)","Kino Šiška Centre for Urban Culture"],
+			"duration_weeks": "10 (2012)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Articles maintained by Tina Dolinšek","PROOFREAD DONE","Festivals in March","NO PHOTO","Music","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
+			"uri" : "http://www.culture.si/en/index.php?title=TRESK Festival",
+			"type" : "Articles_maintained_by_Tina_Dolinšek"
 		},
 		{
 			"label": "Trnfest Festival",
@@ -1586,6 +2299,8 @@
 			"telephone": "386 (0) 1 283 2288, 386 (0) 1 283 2299",
 			"street": "Karunova 14",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "31,32,33,34,35 (2012)",
+			"category": ["FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Theatre","Articles maintained by Ičo Vidmar","Festivals in August","Theatre festivals","NODEPO","WRITING DONE","Music festivals","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Trnfest Festival",
 			"type" : "Articles_maintained_by_Ičo_Vidmar"
 		},
@@ -1598,6 +2313,8 @@
 			"telephone": "386 (0) 5 726 1697, 386 (0) 31 510 826, 386 (0) 41 629 089",
 			"street": "Prekomorskih brigad 6",
 			"town": "SI-6230 Postojna",
+			"duration_weeks": "27 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","Festivals in July","Music","INFOBOX DONE","Festivals","NOT ROBOT","Articles maintained by Danaja Grešak","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Trnje Festival",
 			"type" : "Articles_maintained_by_Danaja_Grešak"
 		},
@@ -1610,18 +2327,22 @@
 			"telephone": "386 (0) 1 283 2288, 386 (0) 1 283 2299",
 			"street": "Karunova 14",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "6 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Festivals in February","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Trnovo Tercets",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
 		{
 			"label": "U3 Triennial of Contemporary Slovene Arts",
-			"frequency": ["triennially","3 months"],
+			"frequency": ["3 months","triennially"],
 			"organised_by": "Museum of Modern Art",
 			"website": "http://www.mg-lj.si",
 			"email": "info@mg-lj.si",
 			"telephone": "386 (0) 1 241 6800, 386 (0) 1 241 6834",
 			"street": "Tomšičeva 14",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","Visual arts festivals","Visual arts","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","Articles maintained by Maja Škerbot","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=U3 Triennial of Contemporary Slovene Arts",
 			"type" : "Articles_maintained_by_Maja_Škerbot"
 		},
@@ -1634,6 +2355,8 @@
 			"telephone": "386 (0) 1 430 8344",
 			"street": "Kersnikova 4, Metelkova 6 (offices)",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "21,22,23 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","Contemporary dance","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","Dance","NOT ROBOT","Dance festivals","NODEPO","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=Ukrep - Festival of Dance Perspectives",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1645,8 +2368,20 @@
 			"telephone": "386 (0) 1 241 56 60",
 			"street": "Trg francoske revolucije 6/I",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FERTIK","Articles maintained by Gregor Pompe","PROOFREAD DONE","NO PHOTO","Music","INFOBOX DONE","Festivals","NOT ROBOT","NODEPO","WRITING DONE","Music festivals"],
 			"uri" : "http://www.culture.si/en/index.php?title=Unicum Contemporary Music Festival",
 			"type" : "Articles_maintained_by_Gregor_Pompe"
+		},
+		{
+			"label": "Video in Progress Festival",
+			"frequency": ["annual","20 days, November"],
+			"organised_by": ["Kolektiva Institute","Photon Gallery"],
+			"website": "http://www.kolektiva.org/video-in-progress-4",
+			"email": "kolektiva@gmail.com",
+			"duration_weeks": "45, 46, 47 (2011)",
+			"category": ["INFOBOX","NOVERIFY","NIFERTIK","Visual arts festivals","Visual arts","TOPROOFREAD","NO PHOTO","Festivals in November","WRITING","Articles maintained by Visual and new media art maintainer","Festivals","NOT ROBOT","NODEPO"],
+			"uri" : "http://www.culture.si/en/index.php?title=Video in Progress Festival",
+			"type" : "Articles_maintained_by_Visual_and_new_media_art_maintainer"
 		},
 		{
 			"label": "Vilenica International Writers’ Gathering",
@@ -1657,6 +2392,8 @@
 			"telephone": "386 (0) 1 251 4144",
 			"street": "Vilenica International Writers’ Gathering, Društvo slovenskih pisateljev, Tomšičeva 12",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "36 (2012)",
+			"category": ["NOVERIFY","NIFERTIK","TOPROOFREAD","NO PHOTO","INFOBOX DONE","Festivals","Festivals in September","Literature festivals","NOT ROBOT","Articles maintained by Anja Mrak","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Vilenica International Writers’ Gathering",
 			"type" : "Articles_maintained_by_Anja_Mrak"
 		},
@@ -1668,6 +2405,8 @@
 			"telephone": "386 (0) 1 241 0517",
 			"street": "Štefanova 5",
 			"town": "SI-1000 Ljubljana",
+			"duration_weeks": "20 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE","Festivals in May"],
 			"uri" : "http://www.culture.si/en/index.php?title=Visions Festival of Young Theatre Groups",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1680,6 +2419,8 @@
 			"telephone": "386 (0) 4 280 4900",
 			"street": "Glavni trg 6",
 			"town": "SI-4000 Kranj",
+			"duration_weeks": "13,14,15 (2012)",
+			"category": ["NOVERIFY","FERTIK","PROOFREAD DONE","NO PHOTO","NO LOGO","INFOBOX DONE","Articles maintained by Katja Kosi","Festivals","NOT ROBOT","Theatre","Theatre festivals","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=Week of Slovenian Drama",
 			"type" : "Articles_maintained_by_Katja_Kosi"
 		},
@@ -1691,18 +2432,21 @@
 			"email": "lspk2010@ljubljana.si",
 			"street": "Ambrožev trg 7",
 			"town": "SI-1000 Ljubljana",
+			"category": ["NOVERIFY","FEATURED","FERTIK","PROOFREAD DONE","Articles maintained by Admin","PHOTO","INFOBOX DONE","Festivals","Literature festivals","World Book Capital Ljubljana 2010","NOT ROBOT","Literature","NODEPO","WRITING DONE"],
 			"uri" : "http://www.culture.si/en/index.php?title=World Book Capital Ljubljana 2010",
 			"type" : "Articles_maintained_by_Admin"
 		},
 		{
 			"label": "Zmaj 'ma mlade Festival",
-			"frequency": ["annual","August - September, 1 month"],
+			"frequency": ["annual","August - September, 2 weeks to 1 month"],
 			"organised_by": "Postojna Youth Centre",
 			"website": "http://www.zmaj-ma-mlade.com",
 			"email": "info@zmajmamlade.com",
 			"telephone": "386 (0) 5 726 3286, 386 (0) 51 840 004",
 			"street": "Vilharjeva 14a",
 			"town": "SI-6230 Postojna",
+			"duration_weeks": "33,34,35 (2012)",
+			"category": ["NIFERTIK","TOPROOFREAD","NO PHOTO","NO LOGO","Music","INFOBOX DONE","Festivals","NOT ROBOT","Theatre","Festivals in August","Articles maintained by Danaja Grešak","Theatre festivals","NODEPO","WRITING DONE","Music festivals","NOVERIFY"],
 			"uri" : "http://www.culture.si/en/index.php?title=Zmaj 'ma mlade Festival",
 			"type" : "Articles_maintained_by_Danaja_Grešak"
 		}

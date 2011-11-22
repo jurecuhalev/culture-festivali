@@ -1,15 +1,27 @@
  .chart div {
    font: 10px sans-serif;
-   background-color: steelblue;
    text-align: right;
-   padding: 3px;
+   /*padding: 3px;*/
    margin: 1px;
-   color: white;
+   /*color: white;*/
    float: left;
+   margin: 0 2px 0 0px;
+
  }
 
  .chart {
  	padding-top: 10px;
+ }
+
+ .number {
+ 	color: green;
+ }
+
+ .chart div .box {
+ 	background-color: steelblue;
+ 	width: 15px;
+ 	height: 15px;
+ 	margin-bottom: 1px;
  }
 
 #description {

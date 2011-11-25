@@ -10,7 +10,7 @@
  }
 
  .chart {
- 	padding-top: 10px;
+ 	padding-top: 4px;
  }
 
  .number {
@@ -24,10 +24,21 @@
  	margin-bottom: 1px;
  }
 
+ .box:hover {
+ 	cursor: pointer;
+ }
+
 #description {
 	clear: both;
 }
 
 .title {
 	padding-top: 15px;
+}
+
+.legend span {
+	display: inline-block;
+	
+	border-left: 1px solid black;
+	text-align: center;
 }

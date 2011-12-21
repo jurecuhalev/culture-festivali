@@ -1,8 +1,11 @@
 .chart div { margin: 1px; float: left; margin: 0 2px 0 0px; }
 .legend span { font-size: 10px; }
 .chart { padding-top: 4px; }
-.chart div .box { background-color: steelblue; width: 13px; height: 13px; margin-bottom: 1px; }
+.chart div .box { width: 13px; height: 13px; margin-bottom: 1px; }
 .box:hover { cursor: pointer; }
 #short_description { height: 24px;}
 #description { clear: both; height: 100px; }
 .legend span { display: inline-block; border-left: 1px solid black; text-align: center; }
+.legend2 { padding-top: 10px; text-align: center;}
+.legend2 > span { padding-right: 10px; line-height: 2em;}
+.lbox { width: 13px; height: 13px; display: inline-block; margin-right: 3px;}

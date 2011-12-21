@@ -8,8 +8,8 @@ $(document).ready(function() {
 	/* load and parse data */
 	var data = d3.range(1,53).map(function(){ return {"count":0, "items": []}; } );
 	var c = 0;
-	// d3.json("../data.json", function(json){
-	d3.json("/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
+	d3.json("../data.json", function(json){
+	// d3.json("/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
 		json.items.map(function(item){
 	// d3.json("ba-simple-proxy.php?url=http://www.culture.si/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
 	// 	json.contents.items.map(function(item){
@@ -36,8 +36,8 @@ $(document).ready(function() {
 
 		data.map(function(item){
 			item.items = item.items.sort(function(a,b){ 
-				if (a.color > b.color) {return 1 }
-				else if (a.color < b.color) { return -1 }
+				if (a.sort_order > b.sort_order) {return 1 }
+				else if (a.sort_order < b.sort_order) { return -1 }
 				return 0; 
 			});			
 		})
@@ -72,12 +72,7 @@ $(document).ready(function() {
 				.style("background-color", colorpicker)
 	     	.on("click", click)
 	     	.on("mouseover", showTitle)
-	     	.on("mouseout", function(){ $('#short_description').empty(); })
-
-	    // div.append("div")
-	    // 	.attr("class", "number")
-	    // 	.text(function(d){ return d.count })
-	    	
+	     	.on("mouseout", function(){ $('#short_description').empty(); })	    	
 	});
 		
 	/* events */
@@ -112,44 +107,54 @@ $(document).ready(function() {
 		var merged_cat = 'Other'
 		
 		if  (cat.indexOf('Architecture festivals') >= 0 || cat.indexOf('Design festivals') >= 0) {
-			color = '#609B18'; c += 1;
-			merged_cat = 'Architecture & Design';
+			color = '#978b78'; c += 1;
+			merged_cat = 'Architecture &amp; Design';
+			so = 2;
 		} 
 		if (cat.indexOf('Dance festivals') >= 0 || cat.indexOf('Theatre festivals') >= 0) {
-			color = '#547980'; c += 1;
-			merged_cat = 'Theater &amp; Dance';
+			color = '#995545'; c += 1;
+			merged_cat = 'Dance &amp; Theater';
+			so = 1;
 		} 
 		if (cat.indexOf('New media art festivals') >= 0 || cat.indexOf('Visual arts festivals') >= 0) {
-			color = '#45ADA8'; c += 1;
+			color = '#31423f'; c += 1;
 			merged_cat = 'New media &amp; Visual arts';
+			so = 0;
 		} 
 		if (cat.indexOf('Film festivals') >= 0) {
-			color = '#9DE0AD'; c+= 1;
+			color = '#719177'; c+= 1;
 			merged_cat = 'Film';
+			so = 5;
 		} 
 		if (cat.indexOf('Literature festivals') >= 0) {
-			color = '#547980'; c+= 1;
+			color = '#82b8be'; c+= 1;
 			merged_cat = 'Literature';
+			so = 3;
 		} 
 		if (cat.indexOf('Music festivals') >= 0) {
-			color = '#B6092A'; c+= 1;
+			color = '#72773a'; c+= 1;
 			merged_cat = 'Music';
+			so = 6;
 		} 
 		if (cat.indexOf('Intangible heritage festivals') >= 0) {
-			color = '#FF9F80'; c += 1;
+			color = '#ae933b'; c += 1;
 			merged_cat = 'Intangible heritage';
+			so = 4;
 		} 
 		if (cat.indexOf('Multidisciplinary festivals') >= 0) {
-			color = 'navyblue'; c = 0;
-			merged_cat = 'Multidisciplinary festivals';
+			color = '#526768'; c = 0;
+			merged_cat = 'Multiple disciplines';
+			so = 8;
 		}
 
-		if (c > 1) {
-			color = '#F1BBBA';
-			merged_cat = 'Combined';
-		} 
+		// if (c > 1) {
+		// 	color = '#F1BBBA';
+		// 	merged_cat = 'Combined';
+		// 	sort_order = 99;
+		// } 
 		d.merged_cat = merged_cat;
 		d.color = color;
+		d.sort_order = so;
 		return color;
 	}
 

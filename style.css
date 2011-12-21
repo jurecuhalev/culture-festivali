@@ -1,50 +1,8 @@
-.chart div {
-font: 8px sans-serif;
-text-align: right;
-margin: 1px;
-float: left;
-margin: 0 2px 0 0px;
-
-}
-
-.legend span {
-   font-size: 10px;
-   /*font-family: Georgia, Palatino, "Times New Roman", serif;*/
-}
-
-.chart {
-	padding-top: 4px;
-}
-
-.number {
-	color: green;
-}
-
-.chart div .box {
-	background-color: steelblue;
-	width: 13px;
-	height: 13px;
-	margin-bottom: 1px;
-}
-
-.box:hover {
-	cursor: pointer;
-}
-
+.chart div { margin: 1px; float: left; margin: 0 2px 0 0px; }
+.legend span { font-size: 10px; }
+.chart { padding-top: 4px; }
+.chart div .box { background-color: steelblue; width: 13px; height: 13px; margin-bottom: 1px; }
+.box:hover { cursor: pointer; }
 #short_description { height: 24px;}
-
-#description {
-   clear: both;
-   height: 100px;
-}
-
-.title {
-padding-top: 15px;
-}
-
-.legend span {
-display: inline-block;
-
-border-left: 1px solid black;
-text-align: center;
-}
+#description { clear: both; height: 100px; }
+.legend span { display: inline-block; border-left: 1px solid black; text-align: center; }

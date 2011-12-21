@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Culture.si festivals</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="https://github.com/mbostock/d3/raw/v2.4.6/d3.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+   <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script type="text/javascript" src="debug.js"></script>
+
+  </head>
+
+<body>
+  <div class="container">
+  <h2>DEBUG: International festivals in Slovenia in 2012 from <a href="http://culture.si">Culture.si</a></h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>label</th>
+        <th>frequency</th>
+        <th>categories</th>
+        <th style="width: 12%">raw duration weeks</th>
+        <th style="width: 18%">weeks for 2012</th>
+      </tr>
+    </thead>
+
+    <tbody class="data">
+      
+    </tbody>
+  </table>
+  </div>
+
+  <script type="text/template" id="table_tmpl">
+  <tr>
+    <td>${id}</td>
+    <td><a href="${uri}" target="_blank">${label}</a></td>
+    <td>${frequency}</td>
+    <td>${category}</td>
+    <td>${duration_weeks}</td>
+    <td>${parsed_weeks}</td>
+  </tr>
+  </script>
+</body>
+</html>

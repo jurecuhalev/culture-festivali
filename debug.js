@@ -3,12 +3,12 @@ $(document).ready(function() {
 	var showYear = 2012;
 	var table_tmpl = $('#table_tmpl').html()
 
-	cat_whitelist = ['Architecture', 'Design', 'Design festivals', 'Dance', 'Dance festivals', 'Theatre', 'Theatre festivals', 'New media art', 'Visual arts', 'Visual arts festivals', 'Film', 'Literature', 'Literature festivals', 'Music', 'Intangible heritage', 'Multidisciplinary festivals']
+	cat_whitelist = ['Architecture festivals', 'Design festivals', 'Dance festivals', 'Theatre festivals', 'New media art festivals', 'Visual arts festivals', 'Film festivals', 'Literature festivals', 'Music festivals', 'Intangible heritage festivals', 'Multidisciplinary festivals']
 	var c = 0;
-	d3.json("data.json", function(json){
-		json.items.map(function(item){
-	// d3.json("ba-simple-proxy.php?url=http://www.culture.si/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
-	// 	json.contents.items.map(function(item){			
+	// d3.json("data.json", function(json){
+	// 	json.items.map(function(item){
+	d3.json("ba-simple-proxy.php?url=http://www.culture.si/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
+		json.contents.items.map(function(item){			
 			c+=1; item.id = c;
 			var cats = item.category;
 			item.category = [];

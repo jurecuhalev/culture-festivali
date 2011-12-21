@@ -1,17 +1,18 @@
 $(document).ready(function() {
 	/* constants */
 	var showYear = 2012;
-	var months = [['January', 5], ['February', 4], ['March', 4], ['April', 5], ['May', 4], ['June', 4], 
-				  ['July', 5], ['August', 4], ['September', 4], ['October', 5], ['November', 4], ['December', 4]
+	var months = [['January', 4], ['February', 4], ['March', 5], ['April', 4], ['May', 4], ['June', 5], 
+				  ['July', 4], ['August', 5], ['September', 4], ['October', 4], ['November', 5], ['December', 4]
 	]
-
+	var festivals = []
 	/* load and parse data */
 	var data = d3.range(1,53).map(function(){ return {"count":0, "items": []}; } );
-
-	// d3.json("data.json", function(json){
-	// 	json.items.map(function(item){
-	d3.json("ba-simple-proxy.php?url=http://www.culture.si/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
-		json.contents.items.map(function(item){
+	var c = 0;
+	// d3.json("../data.json", function(json){
+	d3.json("/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
+		json.items.map(function(item){
+	// d3.json("ba-simple-proxy.php?url=http://www.culture.si/en/Special:Ask/-5B-5BCategory:Festivals-5D-5D-0A-5B-5BCategory:NODEPO-5D-5D/-3FFrequency/-3FOrganised-20by/-3FWebsite/-3FEmail/-3FTelephone/-3FStreet/-3FTown/-3FDuration_weeks/-3FCategory/format%3Djson/sep%3D,/headers%3Dshow/limit%3D500", function(json){
+	// 	json.contents.items.map(function(item){
 			if (item.duration_weeks !== undefined) {
 				var arr = item.duration_weeks.split(")");
 				for (var i = arr.length - 1; i >= 0; i--) {
@@ -21,6 +22,7 @@ $(document).ready(function() {
 					var year = parseInt(res.slice(-1));
 
 					if (showYear === year) {
+						c += 1; item.id = c;
 						for (var i = weeks.length - 1; i >= 0; i--) {
 							var week = parseInt(weeks[i])-1;
 							data[week].count += 1;
@@ -43,28 +45,33 @@ $(document).ready(function() {
 		var legend = d3.select(".legend").selectAll('span')
 			.data(months)
 				.enter().append('span')
-				.style('width', function(d){ return d[1]*17-1+'px' })
+				.style('width', function(d){ return d[1]*15-1+'px' })
 				.text(function(d){ return d[0] })
 
 		/* render after we load json with data */
 		var chart = d3.select(".container")
-		 	.insert("div", '#description')
-		 		.attr("class", "chart");
+		 	.insert("div", '.legend')
+		 		.attr("class", "chart")
+		 		.style("height", "320px")
+
+		var max_items = d3.max(data.map(function(item){ return item.count }))
 
 		var div = chart.selectAll("div")
 	     	.data(data)
 		   		.enter().append("div")
-	     		.style("width", "15px")
+		   		.attr("class", "col")
+	     		.style("width", "13px")
 	     		.style('min-height', '10px')
-
+	     		.style('padding-top', function(d, i) { return ((max_items - d.count) * 14) + 'px';})
+	   
 		div.selectAll("div")
-			.data(function(d){ return d.items })
+			.data(function(d){ return d.items.reverse(); })
 			.enter().append("div")
 				.attr("class", "box")
 				.style("background-color", colorpicker)
 	     	.on("click", click)
 	     	.on("mouseover", showTitle)
-	     	.on("mouseleave", function(){ $('#description').empty(); })
+	     	.on("mouseout", function(){ $('#short_description').empty(); })
 
 	    // div.append("div")
 	    // 	.attr("class", "number")
@@ -73,47 +80,67 @@ $(document).ready(function() {
 	});
 		
 	/* events */
-	var template = $('#description_tmpl').html();
-	var short_tmpl = $('#short_tmpl').html();
+	_.templateSettings = {
+  		interpolate : /\{(.+?)\}/g
+	};
 
+	var short_tmpl = _.template('<h4 class="title">{label} ({merged_cat})</h4>');
+	var description = _.template('<h3 class="title"><a href="{uri}"}>{label}</a></h3>'+
+  					'<ul><li><strong>Organised by:</strong> {organised_by}</li>'+
+      				'<li><strong>Frequency:</strong> {frequency}</li>'+
+      				'<li><strong>Web site:</strong> <a href="{website}">{website}</a> </li></ul>')
+	
 	function showTitle(d, i) {
 		$('#short_description').empty();
-		$('#short_description').append($.tmpl(short_tmpl, d))
+		$('#short_description').html(short_tmpl(d));
 	}
 
 	function click(d, i) {
+		_.defaults(d, {organised_by:'', frequency:'', website:''})
 		$('#description').empty();
-		$('#description').append($.tmpl(template, d));
+		$('#description').append(description(d));
 	}
+	
 
 	function colorpicker(d) {
 		//if (d.color !== undefined){ return color; }
 
 		var cat = d.category;
 		var c = 0;
-		var color = 'steelblue';
+		var color = 'pink';
 		var merged_cat = 'Other'
-		if 		  (cat.indexOf('Architecture') >= 0 || cat.indexOf('Design') >= 0 || cat.indexOf('Design festivals') >= 0) {
-			color = '#594F4F'; c += 1;
+		
+		if  (cat.indexOf('Architecture festivals') >= 0 || cat.indexOf('Design festivals') >= 0) {
+			color = '#609B18'; c += 1;
 			merged_cat = 'Architecture & Design';
-		} else if (cat.indexOf('Dance') >= 0 || cat.indexOf('Dance festivals') >= 0 || cat.indexOf('Theatre') >= 0 || cat.indexOf('Theatre festivals') >= 0) {
+		} 
+		if (cat.indexOf('Dance festivals') >= 0 || cat.indexOf('Theatre festivals') >= 0) {
 			color = '#547980'; c += 1;
-			merged_cat = 'Theather &amp; Dance';
-		} else if (cat.indexOf('New media art') >= 0 || cat.indexOf('Visual arts') >= 0 || cat.indexOf('Visual arts festivals') >= 0) {
+			merged_cat = 'Theater &amp; Dance';
+		} 
+		if (cat.indexOf('New media art festivals') >= 0 || cat.indexOf('Visual arts festivals') >= 0) {
 			color = '#45ADA8'; c += 1;
 			merged_cat = 'New media &amp; Visual arts';
-		} else if (cat.indexOf('Film') >= 0) {
+		} 
+		if (cat.indexOf('Film festivals') >= 0) {
 			color = '#9DE0AD'; c+= 1;
 			merged_cat = 'Film';
-		} else if (cat.indexOf('Literature') >= 0 || cat.indexOf('Literature festivals') >= 0) {
-			color = '#E5FCC2'; c+= 1;
+		} 
+		if (cat.indexOf('Literature festivals') >= 0) {
+			color = '#547980'; c+= 1;
 			merged_cat = 'Literature';
-		} else if (cat.indexOf('Music') >= 0) {
+		} 
+		if (cat.indexOf('Music festivals') >= 0) {
 			color = '#B6092A'; c+= 1;
 			merged_cat = 'Music';
-		} else if (cat.indexOf('Intangible heritage') >= 0) {
-			color = '#FF9F80'; c+= 1;
+		} 
+		if (cat.indexOf('Intangible heritage festivals') >= 0) {
+			color = '#FF9F80'; c += 1;
 			merged_cat = 'Intangible heritage';
+		} 
+		if (cat.indexOf('Multidisciplinary festivals') >= 0) {
+			color = 'navyblue'; c = 0;
+			merged_cat = 'Multidisciplinary festivals';
 		}
 
 		if (c > 1) {
@@ -126,12 +153,3 @@ $(document).ready(function() {
 	}
 
 });
-
-
-
-
-
-
-
-
-

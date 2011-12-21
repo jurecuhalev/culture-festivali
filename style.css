@@ -1,44 +1,50 @@
- .chart div {
-   font: 10px sans-serif;
-   text-align: right;
-   /*padding: 3px;*/
-   margin: 1px;
-   /*color: white;*/
-   float: left;
-   margin: 0 2px 0 0px;
+.chart div {
+font: 8px sans-serif;
+text-align: right;
+margin: 1px;
+float: left;
+margin: 0 2px 0 0px;
 
- }
-
- .chart {
- 	padding-top: 4px;
- }
-
- .number {
- 	color: green;
- }
-
- .chart div .box {
- 	background-color: steelblue;
- 	width: 15px;
- 	height: 15px;
- 	margin-bottom: 1px;
- }
-
- .box:hover {
- 	cursor: pointer;
- }
-
-#description {
-	clear: both;
-}
-
-.title {
-	padding-top: 15px;
 }
 
 .legend span {
-	display: inline-block;
-	
-	border-left: 1px solid black;
-	text-align: center;
+   font-size: 10px;
+   /*font-family: Georgia, Palatino, "Times New Roman", serif;*/
+}
+
+.chart {
+	padding-top: 4px;
+}
+
+.number {
+	color: green;
+}
+
+.chart div .box {
+	background-color: steelblue;
+	width: 13px;
+	height: 13px;
+	margin-bottom: 1px;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+#short_description { height: 24px;}
+
+#description {
+   clear: both;
+   height: 100px;
+}
+
+.title {
+padding-top: 15px;
+}
+
+.legend span {
+display: inline-block;
+
+border-left: 1px solid black;
+text-align: center;
 }

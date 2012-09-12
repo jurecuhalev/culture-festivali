@@ -6,6 +6,8 @@
 #short_description { height: 24px;}
 #description { clear: both; height: 100px; }
 .legend span { display: inline-block; border-left: 1px solid black; text-align: center; }
-.legend2 { padding-top: 10px; text-align: center;}
-.legend2 > span { padding-right: 10px; line-height: 2em;}
+.legend2 { padding-top: 10px; text-align: center !important;}
+.legend2 > span { padding-right: 10px; line-height: 2em !important;}
+.legend2 p > br { display: inline !important;}
+.legend2 p { text-align: center !important; line-height: 2em !important;}
 .lbox { width: 13px; height: 13px; display: inline-block; margin-right: 3px;}

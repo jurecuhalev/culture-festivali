@@ -1,5 +1,6 @@
 .chart div { margin: 1px; float: left; margin: 0 2px 0 0px; }
 .legend span { font-size: 10px; }
+.legend { float: left;}
 .chart { padding-top: 4px; }
 .chart div .box { width: 13px; height: 13px; margin-bottom: 1px; }
 .box:hover { cursor: pointer; }
@@ -11,3 +12,13 @@
 .legend2 p > br { display: inline !important;}
 .legend2 p { text-align: center !important; line-height: 2em !important;}
 .lbox { width: 13px; height: 13px; display: inline-block; margin-right: 3px;}
+
+
+.colors li {
+	float: left;
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 15px;
+	margin-bottom: 5px;
+	width: 70px;
+}

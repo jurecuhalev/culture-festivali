@@ -31,26 +31,29 @@ $(document).ready(function() {
 
 	/* constants */
 	var showYear = 2012;
-	var months = [['January', 4], ['February', 4], ['March', 5], ['April', 4], ['May', 4], ['June', 5], 
-				  ['July', 4], ['August', 5], ['September', 4], ['October', 4], ['November', 5], ['December', 4]
+	var months = [['Januar', 4], ['Februar', 4], ['Marec', 5], ['April', 4], ['Maj', 4], ['Junij', 5], 
+				  ['Julij', 4], ['Avgust', 5], ['September', 4], ['Oktober', 4], ['November', 5], ['December', 3], ['Lent',3]
 	]
 	var festivals = []
 	/* load and parse data */
-	var data = d3.range(1,53).map(function(){ return {"count":0, "items": []}; } );
+	var data = d3.range(1,58).map(function(){ return {"count":0, "items": []}; } );
 	var c = 0;
 	d3.json("epk2012.json", function(json){
 		json.map(function(item){
-			if (item.start !== undefined) {
+			if (item.start !== undefined && item.venue.city === 'Maribor') {
 				if (_.include(item.tags, '000113893'))  {
 					item.lent = true;
 				}
-
 
 				var start_date = new Date(Date.parse(item.start));
 				var end_date = new Date(Date.parse(item.end));
 
 			 	var start_week = getWeek(y2k(start_date.getYear()),start_date.getMonth(),start_date.getDate());
-			 	var weeks = [start_week];
+			 	if (item.lent) {
+			 		var weeks = [start_week+29];
+			 	} else {
+			 		var weeks = [start_week];	
+			 	}
 
 			 	// commented out as we currently want only beginnings of events
 			 	// var cur_date = start_date;
@@ -86,6 +89,7 @@ $(document).ready(function() {
 		var legend = d3.select(".legend").selectAll('span')
 			.data(months)
 				.enter().append('span')
+				.attr('class', '')
 				.style('width', function(d){ return d[1]*15-1+'px' })
 				.text(function(d){ return d[0] })
 
@@ -104,13 +108,13 @@ $(document).ready(function() {
 	     		.style("width", "13px")
 	     		.style('min-height', '10px')
 	     		.style('float', 'left')
-	     		.style('padding-top', function(d, i) { return ((max_items - d.count) * 14) + 'px';})
+	     		.style('padding-top', function(d, i) { return ((max_items - d.count) * 6) + 'px';})
 	   
 		div.selectAll("div")
 			.data(function(d){ return d.items.reverse(); })
 			.enter().append("div")
 				.attr("class", function(item){
-					if (item.lent) { return "box lent" };
+					// if (item.lent) { return "box lent" };
 					return "box"
 					})
 				.style("background-color", colorpicker)
@@ -126,11 +130,12 @@ $(document).ready(function() {
 
 	var short_tmpl = _.template('<h4 class="title">{title} ({types})</h4>');
 	var description = _.template('<h3 class="title">{title}</h3>'+
-  					'<ul><li><strong>Organised by:</strong> {organised_by}</li>'+
+  					'<ul><li><strong>Date:</strong> {start}</li>'+
       				'<li><strong>Frequency:</strong> {frequency}</li>'+
       				'<li><strong>Web site:</strong> <a href="{website}">{website}</a> </li></ul>')
 	
 	function showTitle(d, i) {
+		console.log(d);
 		$('#short_description').empty();
 		$('#short_description').html(short_tmpl(d));
 
@@ -153,58 +158,57 @@ $(document).ready(function() {
 		var merged_cat = 'Other'
 		
 		if  (cat.indexOf('exhibitions') >= 0) {
-			color = '#978b78'; c += 1;
-			merged_cat = 'Exhibitions';
+			color = '#FD1414'; c += 1;
+			merged_cat = 'Razstave';
 			so = 2;
 		} 
 		if (cat.indexOf('music') >= 0) {
-			color = '#995545'; c += 1;
-			merged_cat = 'Music';
+			color = '#A40707'; c += 1;
+			merged_cat = 'Glasba';
 			so = 1;
 		} 
 		if (cat.indexOf('literature') >= 0) {
-			color = '#31423f'; c += 1;
-			merged_cat = 'Literature';
+			color = '#FE7D7D'; c += 1;
+			merged_cat = 'Literatura';
 			so = 0;
 		} 
 		if (cat.indexOf('film') >= 0) {
-			color = '#719177'; c+= 1;
+			color = '#FD7E14'; c+= 1;
 			merged_cat = 'Film';
 			so = 5;
 		} 
 		if (cat.indexOf('theatre') >= 0) {
-			color = '#82b8be'; c+= 1;
-			merged_cat = 'Theatre';
+			color = '#A44E07'; c+= 1;
+			merged_cat = 'Gledalisce';
 			so = 3;
 		} 
 		if (cat.indexOf('city') >= 0) {
-			color = '#72773a'; c+= 1;
-			merged_cat = 'City';
+			color = '#FEB87D'; c+= 1;
+			merged_cat = 'Mesto';
 			so = 6;
 		} 
 		if (cat.indexOf('architecture') >= 0) {
-			color = '#ae933b'; c += 1;
-			merged_cat = 'Architecture';
+			color = '#0C9898'; c += 1;
+			merged_cat = 'Arhitektura';
 			so = 4;
 		} 
 		if (cat.indexOf('community') >= 0) {
-			color = '#526768'; c = 0;
-			merged_cat = 'Community';
+			color = '#046363'; c = 0;
+			merged_cat = 'Skupnost';
 			so = 8;
 		}
-
 		if (cat.indexOf('child') >= 0) {
-			color = '#0E1961'; c = 0;
-			merged_cat = 'Children';
+			color = '#64CBCB'; c = 0;
+			merged_cat = 'Otroci';
 			so = 9;
 		}
 		if (cat.indexOf('knowledge') >= 0) {
-			color = '#FADA6E'; c = 0;
-			merged_cat = 'Knowledge';
+			color = '#10CA10'; c = 0;
+			merged_cat = 'Znanje';
 			so = 10;
 		}
 		if (cat.indexOf('intermedia') >= 0) {
-			color = '#36A5E1'; c = 0;
+			color = '#058405'; c = 0;
 			merged_cat = 'Intermedia';
 			so = 11;
 		}

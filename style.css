@@ -2,7 +2,7 @@
 .legend span { font-size: 10px; }
 .legend { float: left;}
 .chart { padding-top: 4px; }
-.chart div .box { width: 13px; height: 13px; margin-bottom: 1px; }
+.chart div .box { width: 13px; height: 5px; margin-bottom: 1px; }
 .box:hover { cursor: pointer; }
 #short_description { height: 24px;}
 #description { clear: both; height: 100px; }
@@ -21,4 +21,8 @@
 	padding-right: 15px;
 	margin-bottom: 5px;
 	width: 70px;
+}
+
+.legend span:last-child , .chart div.col:last-child {
+	margin-left: 30px;
 }
